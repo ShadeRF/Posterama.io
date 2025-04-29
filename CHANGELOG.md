@@ -2,6 +2,11 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.1.1] - 2025-04-29
+
+- Fixed error when trying to update profile or add profile image.
+- Batch TMDB api calls to improve performance.
+
 ## [1.0.1] - 2025-04-28
 
 ### Added
