@@ -2,6 +2,16 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.2] - 2025-04-29
+
+### Added
+
+- Added URL parameter synchronization to the Poster Library and User Poster Collection, allowing:
+    - Bookmarking specific filtered views
+    - Browser back/forward navigation with state preservation
+    - Persistent filters and pagination across page refreshes
+    - Seamless return to previous view after viewing poster details
+
 ## [1.0.1.1] - 2025-04-29
 
 - Fixed error when trying to update profile or add profile image.
