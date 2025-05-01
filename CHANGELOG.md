@@ -2,6 +2,10 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.2.5] 2025-05-01
+
+- Added quick link to view public profile to side nav.
+
 ## [1.0.2.4] 2025-05-01
 
 - Added missing forgot password functionality
