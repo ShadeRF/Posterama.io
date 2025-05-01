@@ -2,6 +2,14 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.2.4] 2025-05-01
+
+- Added missing forgot password functionality
+
+## [1.0.2.3] 2025-04-30
+
+- Trim spaces when searching for movies to prevent results for single word titled movies from not appearing if space is inadvertently added.
+
 ## [1.0.2.2] 2025-04-30
 
 - Fixed issue with leading articles (i.e. a, the) were not being dropped for alphabetical sorting.
