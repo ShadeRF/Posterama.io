@@ -2,6 +2,16 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.3] [2025-05-02]
+
+- Increased limit for free tier from 25 to 50 posters.
+- Added genre and director as filters on Poster Library and User Collections.
+- You can now search for posters in the Poster Library and User Collection by typing the Actor name (main cast only), Director or Genre.
+- Fixed issue with condition stats not showing all stats correctly.
+- Added click-through functionality to all statistics components on the Stats page. Now you can simply click on any
+  statistic (decade, condition, genre, country, or poster type) to instantly filter your collection to match. Quickly
+  explore the posters making up each segment of your collection data with just a single click.
+
 ## [1.0.2.5] 2025-05-01
 
 - Added quick link to view public profile to side nav.
