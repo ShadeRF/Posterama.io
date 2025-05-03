@@ -2,6 +2,11 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.3.2] [2025-05-03]
+
+- Fixed issue with poster type edits throwing error when updating.
+- Movie search now allows searching by Actors
+
 ## [1.0.3.1] [2025-05-02]
 
 - Added page for howto videos to better explain how to use Posterama. Includes new video on adding posters to the global database and user collections.
