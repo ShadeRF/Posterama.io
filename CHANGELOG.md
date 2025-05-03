@@ -2,6 +2,10 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.3.1] [2025-05-02]
+
+- Added page for howto videos to better explain how to use Posterama. Includes new video on adding posters to the global database and user collections.
+
 ## [1.0.3] [2025-05-02]
 
 - Increased limit for free tier from 25 to 50 posters.
