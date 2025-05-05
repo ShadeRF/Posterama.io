@@ -2,6 +2,10 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.3.3] [2025-05-05]
+
+- Expanded size choices for France and corrected naming for existing sizes.
+
 ## [1.0.3.2] [2025-05-03]
 
 - Fixed issue with poster type edits throwing error when updating.
