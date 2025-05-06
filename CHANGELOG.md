@@ -2,6 +2,12 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.4] [2025-05-06]
+
+- Added ability to search TV shows and add posters for TV shows to the public library and user collections. New visual cues have been added to designate movie or TV show.
+- Adjusted terminology for buttons in various places to make  more clear what action is being taken.
+- Added helper text in various places to help users better understand the actions they are taking.
+
 ## [1.0.3.3] [2025-05-05]
 
 - Expanded size choices for France and corrected naming for existing sizes.
