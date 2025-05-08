@@ -2,6 +2,12 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.4.1] [2025-05-08]
+
+- Added image right click protection
+- Fixed bug where incorrect title would be displayed when adding a TV poster to a user collection
+- Initial upgrade to React 19.1 from React 18.3.1. 
+
 ## [1.0.4] [2025-05-06]
 
 - Added ability to search TV shows and add posters for TV shows to the public library and user collections. New visual cues have been added to designate movie or TV show.
