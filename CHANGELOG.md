@@ -2,6 +2,12 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.5] [2025-05-09]
+
+- Added option to toggle single or double column view when on mobile for Collections, Posters, Wishlist and Marketplace.
+- Updated Marketplace to have more consistent UI with other pages.
+- The Marketplace is now publicly viewable and linked on pages non-users visit.
+
 ## [1.0.4.1] [2025-05-08]
 
 - Added image right click protection
