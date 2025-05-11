@@ -2,6 +2,9 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.5.3] [2025-05-11]
+
+- Fixed date displaying incorrectly on marketplace detail page.
 
 ## [1.0.5.2] [2025-05-11] 
 
