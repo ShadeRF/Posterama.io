@@ -2,6 +2,15 @@
 
 All notable changes to Posterama will be documented in this file.
 
+
+## [1.0.5.2] [2025-05-11] 
+
+- Added movie details (Genre, Director, Main Cast) to poster type detail view, user poster detail view and public profile page poster view.
+
+## [1.0.5.1] [2025-05-10]
+
+- Fixed values not displaying on cards and table view for user collection.
+
 ## [1.0.5] [2025-05-09]
 
 - Added option to toggle single or double column view when on mobile for Collections, Posters, Wishlist and Marketplace.
