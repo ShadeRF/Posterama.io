@@ -2,6 +2,12 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.6] [2025-05-14]
+
+- Revamped UI for User Poster and Poster Type detail pages. Information is now laid out in a more logical way and the UI feels cleaner and more modern.
+- Fixed bug that could prevent Autographed poster details from displaying correctly on User Poster detail page.
+- Miscellaneous UI fixes and tweaks throughout the rest of the app.
+
 ## [1.0.5.3] [2025-05-11]
 
 - Fixed date displaying incorrectly on marketplace detail page.
