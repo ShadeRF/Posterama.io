@@ -2,6 +2,14 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.6.2] [2025-05-17]
+
+- Updated poster cards and UI throughout to match updates in 1.0.6
+
+## [1.0.6.1] [2025-05-17]
+
+- Fix performance issue with search on user collections.
+
 ## [1.0.6] [2025-05-14]
 
 - Revamped UI for User Poster and Poster Type detail pages. Information is now laid out in a more logical way and the UI feels cleaner and more modern.
