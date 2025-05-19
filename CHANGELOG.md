@@ -2,6 +2,12 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.6.3] [2025-05-19]
+
+- Added wishlist to public user profile page. 
+- Added ability to link directly to collection, wishlist or for sale tabs with new urls /user/username/collection, /user/username/wishlist, /user/username/forsale. Share icons are available on each tab for easy access
+- Updated User Profile Page UI to match recent changes to styling.
+
 ## [1.0.6.2] [2025-05-17]
 
 - Updated poster cards and UI throughout to match updates in 1.0.6
