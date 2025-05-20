@@ -6,6 +6,7 @@ All notable changes to Posterama will be documented in this file.
 
 - More UI and style unification throughout the app.
 - Fixed bug that in some instances could cause page state to become null and make certain actions unclickable without a page refresh.
+- Rendering and performance optimizations.
 
 ## [1.0.6.3] [2025-05-19]
 
