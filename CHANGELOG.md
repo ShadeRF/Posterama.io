@@ -2,6 +2,11 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.6.5] [2025-05-22]
+- Added user explorer which can be accessed at /explorer-users
+- Added missing caching for profile data to prevent excessive reads and improve performance
+- Fixed cache warm up function throwing error.
+
 ## [1.0.6.4] [2025-05-20]
 
 - More UI and style unification throughout the app.
