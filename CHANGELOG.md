@@ -2,6 +2,11 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.6.7] [2025-05-25]
+
+- Updated subscription pricing to $3.99/month and $39.99/year (save 30%)
+- Enabled yearly subscription option for Pro plan
+
 ## [1.0.6.6] [2025-05-24]
 
 - Added special search mappings for movies with special characters that would not return without the special character (i.e. WALL·E)
