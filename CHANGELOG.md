@@ -2,10 +2,15 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.6.8] [05-28-25]
+
+- Added support for Print types. When selecting the poster type print, new fields will become available including Gallery/Publisher Name, Print Run, and noting whether a print is a variant or not. When adding a Print type to your user collection an additional field will be available, Edition Number, that allows you to catalog your specific edition number for the print.
+
 ## [1.0.6.7] [2025-05-25]
 
 - Updated subscription pricing to $3.99/month and $39.99/year (save 30%)
 - Enabled yearly subscription option for Pro plan
+- Updated all Stripe price IDs across development and production environments
 
 ## [1.0.6.6] [2025-05-24]
 
