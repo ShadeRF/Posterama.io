@@ -2,9 +2,15 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.6.9] [06-02-25]
+
+- Default storage condition to most likely option based on poster type (for example, defaulting Lobby Cards to Flat vs rolled)
+- Lots of prep work for Android mobile app!
+
 ## [1.0.6.8] [05-28-25]
 
 - Added support for Print types. When selecting the poster type print, new fields will become available including Gallery/Publisher Name, Print Run, and noting whether a print is a variant or not. When adding a Print type to your user collection an additional field will be available, Edition Number, that allows you to catalog your specific edition number for the print.
+- Minor UI fixes.
 
 ## [1.0.6.7] [2025-05-25]
 
