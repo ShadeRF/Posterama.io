@@ -2,6 +2,10 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.7] [06-13-25]
+
+- Fixed bug that would prevent being able to edit a user poster in some instances.
+
 ## [1.0.6.9] [06-02-25]
 
 - Default storage condition to most likely option based on poster type (for example, defaulting Lobby Cards to Flat vs rolled)
