@@ -2,6 +2,12 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.7.1] [06-21-25]
+
+- Revamped poster suggestion submission page to allow for more complete suggestion updates.
+- Fixed search bug on my collection page that would not return proper results when searching by Artist name.
+- Added additional poster sizes for Italy and Switzerland.
+
 ## [1.0.7] [06-13-25]
 
 - Fixed bug that would prevent being able to edit a user poster in some instances.
