@@ -2,6 +2,10 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.7.2] [06-22-25]
+
+- Updated sort options on public profile pages to align with public library and collection pages.
+
 ## [1.0.7.1] [06-21-25]
 
 - Revamped poster suggestion submission page to allow for more complete suggestion updates.
