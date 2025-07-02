@@ -2,6 +2,24 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.0.7.4] [07-01-25] 
+
+- Updated from Material UI 6.4 to MUI 7.2
+- Updated stats update timing to prevent multiple stat refreshes in a short period of time.
+- Added new gallery view to public profile page. A new, exciting way to show off your collection!
+
+
+## [1.0.7.3] [06-23-25] - Performance Optimizations
+
+### Database Read Optimization
+- **Rankings Endpoint**: Added Redis caching (1-hour TTL) and efficient batch processing to eliminate N+1 queries
+- **Cache Invalidation**: Replaced pattern-based invalidation with targeted key removal, preserving unaffected caches
+- **Stats Calculation**: Implemented 4-hour caching for user stats with smart invalidation on collection changes
+- **Similar Collectors**: Added collection summaries cache to pre-calculate poster type overlaps between users
+- **TMDB API Caching**: Created 30-day cache for movie/TV details to reduce external API calls
+- **Overall Impact**: Significantly reduced database reads, especially for stats calculations and rankings endpoints
+- Fixed date conversion issues
+
 ## [1.0.7.2] [06-22-25]
 
 - Updated sort options on public profile pages to align with public library and collection pages.
