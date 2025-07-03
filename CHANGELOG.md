@@ -2,6 +2,13 @@
 
 All notable changes to Posterama will be documented in this file.
 
+
+## [1.0.7.5] [07-202-25]
+
+- Added natural language search to user collections for Premium users. Please provide feedback on results in the Discord.
+- Fixed bug that would cause thumbnails and medium urls to get swapped when editing a poster. Impacted posters have been corrected.
+
+
 ## [1.0.7.4] [07-01-25] 
 
 - Updated from Material UI 6.4 to MUI 7.2
