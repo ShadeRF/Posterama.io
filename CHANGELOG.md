@@ -2,8 +2,11 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [07-05-2025]
 
-## [1.0.7.5] [07-202-25]
+- Added virtual collections. You can now create virtual collections from your Collections page to group your collection into 1 or more sub-collections. Free users are limited to 5 virtual collections. Premium members can create unlimited virtual collections. 
+
+## [1.0.7.5] [07-02-25]
 
 - Added natural language search to user collections for Premium users. Please provide feedback on results in the Discord.
 - Fixed bug that would cause thumbnails and medium urls to get swapped when editing a poster. Impacted posters have been corrected.
