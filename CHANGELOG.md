@@ -2,7 +2,7 @@
 
 All notable changes to Posterama will be documented in this file.
 
-## [07-05-2025]
+## [1.0.7.6] [07-05-2025]
 
 - Added virtual collections. You can now create virtual collections from your Collections page to group your collection into 1 or more sub-collections. Free users are limited to 5 virtual collections. Premium members can create unlimited virtual collections. 
 
