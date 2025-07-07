@@ -2,6 +2,10 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.1.0] [07-07-2025]
+
+- Android mobile app is now generally available to the public. 
+
 ## [1.0.7.6] [07-05-2025]
 
 - Added virtual collections. You can now create virtual collections from your Collections page to group your collection into 1 or more sub-collections. Free users are limited to 5 virtual collections. Premium members can create unlimited virtual collections. 
