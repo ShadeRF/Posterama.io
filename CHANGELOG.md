@@ -2,6 +2,15 @@
 
 All notable changes to Posterama will be documented in this file.
 
+
+## [1.1.2] [07-19-2025]
+
+- Fixed bug that allowed posters from movies and tv to get mixed together when they shared the same TMDB ID.
+
+## [1.1.1] [07-12-2025]
+
+- Minor fixes for Android and future iOS app.
+
 ## [1.1.0] [07-07-2025]
 
 - Android mobile app is now generally available to the public. 
