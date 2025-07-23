@@ -2,6 +2,11 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.1.4] [07-22-2025]
+
+- Improved login experience to provide better feedback when login is unsuccessful. 
+- Fixed forgot password not functional on mobile apps.
+
 ## [1.1.3] [07-21-2025]
 
 - Fixed issue with public profile gallery when viewed in landscape on a mobile device.
