@@ -2,6 +2,52 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.1.5] [07-24-2025]
+
+### Added
+- **Collection Table View Redesign**: The table view on the user collection page has been completely redesigned. The new table allows for complete user customization of data displayed as well as inline editing of data while making better use of screen real estate. Note: The table view will only be available on the desktop version of Posterama.
+- **Enhanced Gallery View Search**: The gallery view now supports comprehensive search functionality including:
+  - Search by actor names to find posters featuring specific actors
+  - Search by director names to find posters from specific directors  
+  - Search by movie genres (action, sci-fi, horror, etc.)
+  - All searches now use the same powerful search engine as the main collection view
+- **URL Parameters for Profile Pages**: You can now share direct links to profile pages with specific searches, sorts, and pagination
+  - Gallery view: `/user/username/gallery?search=tom+cruise&sort=releaseYear-desc`
+  - Profile collection view: `/user/username?search=batman&sort=movieTitle-asc&page=2`
+  - For sale items: `/user/username?tab=forsale&sort=price-asc`
+  - Search and sort parameters are automatically saved in the URL as you browse
+- **Improved Multi-Selection Interface**: Redesigned the bulk selection experience for better usability
+  - Checkboxes now appear on hover (desktop) or are long pressing (mobile)
+  - Simply hover over a poster card to reveal the selection checkbox in the upper left corner
+  - Click anywhere on the card when hovering to toggle selection
+  - Selection state is clearly indicated with a highlighted border
+- **Floating Selection Bar**: A modern floating action bar appears when items are selected
+  - Shows count of selected items
+  - Quick access to bulk actions (Delete, Add to Collection)
+- **Bulk Delete**: You can now delete multiple posters at once
+  - Select the posters you want to remove
+  - Click the Delete button in the floating selection bar
+  - Confirm the deletion in the dialog
+  - All selected posters are deleted in one operation
+- **Wishlist Pagination**: The wishlist page now supports pagination for better performance with large wishlists
+  - Navigate through pages of wishlist items (24 items per page by default)
+  - Page number and size are preserved in the URL for easy sharing
+  - Share button added to quickly share your wishlist URL with others
+- **TMDB Attribution**: Added proper attribution to The Movie Database (TMDB) on all movie/TV search and details pages as required by their API terms of service
+
+### Changed
+- **Profile Badges Display**: All earned badges are now displayed on public profiles instead of limiting to 3 badges with a "+X more" indicator
+- **Public Profile UI Cleanup**: Adjusted positioning of various interactive elements on public profile page to feel less cluttered.
+
+### Fixed
+- **Public Profile Tab Navigation**: Fixed issue where clicking tabs on public profile pages didn't properly update the URL
+  - All tabs (Collection, Wishlist, For Sale) now use clean URLs without query parameters
+  - Direct links to wishlist (e.g., `/user/username/wishlist`) now correctly display the wishlist tab
+  - Navigation between tabs is now consistent and updates the browser URL properly
+- Fixed edit button not routing correctly when clicked from the User Collection table view
+- Fixed table view toggle not working on web platform
+- Fixed table view date added displaying incorrect dates.
+
 ## [1.1.4] [07-22-2025]
 
 - Improved login experience to provide better feedback when login is unsuccessful. 
