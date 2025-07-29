@@ -2,6 +2,15 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.1.7] [07-29-2025]
+
+- Stats calculated directly from typesense.
+
+## [1.1.6] [07-28-2025]
+
+- Fixed issue with rankings page not loading on mobile.
+- Adjusted cache TTL for stats to reduce unneccesary database reads.
+
 ## [1.1.5] [07-24-2025]
 
 ### Added
