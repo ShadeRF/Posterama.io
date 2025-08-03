@@ -2,6 +2,17 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.1.8] [08-03-2025]
+
+### Added
+
+- **Pressbook and Stills**: Official support for Pressbooks/Presskits and stills. Select Pressbook or Still from Poster Type dropdown for the new Poster types.
+  - Multiple image support added for Pressbook and still poster types only. 
+
+### Fixed
+- Fixed alphabetical sorting not ignoring common words like a, the, etc in gallery view.
+- Fix several instances of bad url routing for share buttons in mobile.
+
 ## [1.1.7] [07-29-2025]
 
 - Stats calculated directly from typesense.
