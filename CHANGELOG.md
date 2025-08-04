@@ -12,6 +12,7 @@ All notable changes to Posterama will be documented in this file.
 ### Fixed
 - Fixed alphabetical sorting not ignoring common words like a, the, etc in gallery view.
 - Fix several instances of bad url routing for share buttons in mobile.
+- Removed linen-backed and double sided checkboxes where not needed for a specific poster type (like Press Books, Stills, Lobby Cards)
 
 ## [1.1.7] [07-29-2025]
 
