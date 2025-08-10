@@ -2,6 +2,10 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.1.9] [08-03-2025]
+
+- **Hotfix**: Fixed Custom Size was no longer selectable in version 1.1.8
+
 ## [1.1.8] [08-03-2025]
 
 ### Added
