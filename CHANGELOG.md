@@ -2,11 +2,11 @@
 
 All notable changes to Posterama will be documented in this file.
 
-## [1.1.13] [09-08-2025]
+## [1.1.13] [09-16-2025]
 
 - Various UI tweaks to improve the mobile app experience.
 
-## [1.1.12] [09-16-2025]
+## [1.1.12] [09-08-2025]
 
 - Lobby cards now have their own tab on Poster Library and Collection Pages. An All tab has also been added if you wish to view all types together.
 - Behind the scenes upgrades for improved performance and stability.
