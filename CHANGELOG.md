@@ -2,6 +2,12 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.1.14] [10-17-2025]
+
+- Fixed issue where searching by gallery name would not return results.
+- Added new condition option of fine between Very Good and Near Mint.
+- Deprecated old marketplace to make way for upcoming Marketplace V2 (more info coming soon!)
+
 ## [1.1.13] [09-16-2025]
 
 - Various UI tweaks to improve the mobile app experience.
