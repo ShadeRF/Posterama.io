@@ -2,6 +2,20 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.1.17] [10-27-2025]
+
+- Justified gallery view is now available on the public user profile.
+
+## [1.1.16] [10-26-2025]
+
+- Add additional poster sizes for Egypt.
+- Fixed issue with link for collection items on poster types page.
+
+## [1.1.15] [10-25-2025]
+
+- Added new settings panel for choosing Dark Mode, High Contrast Mode and 6 new colored themes to customize Posterama more to your preference.
+- Updated notification panel to match style of settings panel.
+
 ## [1.1.14] [10-17-2025]
 
 - Fixed issue where searching by gallery name would not return results.
