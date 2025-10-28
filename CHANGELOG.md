@@ -2,6 +2,10 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.1.18] [10-28-2025]
+
+- Added the ability to select multiple options for each dropdown in a filter for more powerful filtering of collections and the poster library.
+
 ## [1.1.17] [10-27-2025]
 
 - Justified gallery view is now available on the public user profile.
