@@ -2,6 +2,16 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.1.20] [11-06-2025]
+
+- Fixed issue with links for tv shows incorrectly linking to movies.
+
+## [1.1.19] [10-29-2095]
+
+- Added ability to customize sort order of custom collections (Go to Manage Collections from the Collections drop down on the My Poster Collection Page).
+- Added ability to sort by Purchase Date in the My Poster Collection view.
+- Added links to movie titles on user posters and poster types to link to the the specific movie page.
+
 ## [1.1.18] [10-28-2025]
 
 - Added the ability to select multiple options for each dropdown in a filter for more powerful filtering of collections and the poster library.
