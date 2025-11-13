@@ -2,6 +2,10 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.1.21] [11-13-2025]
+
+- Backend optimizations galore. Posterama performance should be even faster now!
+
 ## [1.1.20] [11-06-2025]
 
 - Fixed issue with links for tv shows incorrectly linking to movies.
