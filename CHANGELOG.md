@@ -7,6 +7,7 @@ All notable changes to Posterama will be documented in this file.
 - Backend optimizations galore. Posterama performance should be even faster now!
 - Improved UI for search/filter/sorting on Poster Library and My Collection pages on mobile devices.
 - Other various UI improvements and consolidation throughout for a more consistent user experience.
+- All stats are now FREE to all users.
 
 ## [1.1.20] [11-06-2025]
 
