@@ -5,6 +5,8 @@ All notable changes to Posterama will be documented in this file.
 ## [1.1.21] [11-13-2025]
 
 - Backend optimizations galore. Posterama performance should be even faster now!
+- Improved UI for search/filter/sorting on Poster Library and My Collection pages on mobile devices.
+- Other various UI improvements and consolidation throughout for a more consistent user experience.
 
 ## [1.1.20] [11-06-2025]
 
