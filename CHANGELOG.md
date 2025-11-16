@@ -2,6 +2,11 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.1.22] [11-15-2025]
+
+- Fixed issue on mobile when paging the screen would get stuck at the bottom.
+- Improved paging to allow for easier page navigation.
+
 ## [1.1.21] [11-13-2025]
 
 - Backend optimizations galore. Posterama performance should be even faster now!
