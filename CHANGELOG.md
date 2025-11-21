@@ -2,6 +2,22 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.2.0] [11-21-2025]
+
+### Added
+- **Profile Theme Customization**: You can now customize the appearance of your public profile! Access the new Appearance tab in your profile settings to:
+  - Choose from multiple theme options to match your style or collection mood
+  - Toggle film strip decorations on your public profile page
+  - Control whether your wishlist appears on your public profile
+  - Choose between Justified and Masonry gallery layouts
+  - Select Boxed or Full Width page layouts
+
+### Fixed
+- **Browser Navigation**: Fixed issues with browser back button and app back button functionality throughout the site
+  - Back button now correctly preserves your page number, filters, and search terms when returning to collection or poster library pages
+  - Eliminated the need to click back button multiple times to navigate
+  - Smoother navigation experience when browsing between poster details and collection views
+
 ## [1.1.22] [11-15-2025]
 
 - Fixed issue on mobile when paging the screen would get stuck at the bottom.
