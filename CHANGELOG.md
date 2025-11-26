@@ -2,6 +2,23 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.2.1] [11-25-2025]
+
+### Improved
+- **Statistics Page Redesign**: Completely refreshed the Statistics page with a cleaner, more modern design
+  - Stats now display values directly without needing to hover
+  - Improved readability with horizontal bar visualizations
+  - Poster types now shown as a compact tag cloud
+  - Consistent styling across all stat components
+- **Poster Detail Pages**: Visual improvements and unification of the layout and styling between Poster Library and My Collection detail pages for a more consistent experience
+- **Movie/TV Details**: Visual improvements to movie and TV show detail pages
+- **Mobile Experience**: Fixed various mobile-specific issues including modal display problems and menu behavior
+
+### Fixed
+- Fixed YouTube video playback issues on iOS devices
+- Fixed mobile menu and drawer navigation issues
+- Fixed footer overlapping content on the Messages page
+
 ## [1.2.0] [11-21-2025]
 
 ### Added
