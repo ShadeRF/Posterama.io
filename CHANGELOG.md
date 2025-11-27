@@ -2,6 +2,14 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.2.5] [11-27-2025]
+
+- Fixed issue with jumpy search text on user collection page.
+
+## [1.2.4] [11-27-2025]
+
+- Changed default sort order for movie and tv search poster pages to Year (oldest)
+
 ## [1.2.3] [11-26-2025]
 
 - OTA updates for mobile. 
