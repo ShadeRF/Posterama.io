@@ -2,6 +2,18 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.2.3] [11-26-2025]
+
+- OTA updates for mobile. 
+
+## [1.2.2] [11-26-2025]
+
+### Added
+- Photobusta size added under Italy.
+
+### Fixed
+- Fixed scroll position on cast & crew credits page in the mobile app.
+
 ## [1.2.1] [11-25-2025]
 
 ### Improved
