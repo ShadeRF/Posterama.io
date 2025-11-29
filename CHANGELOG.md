@@ -2,6 +2,10 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.2.8] [11-29-2025]
+
+- More unification of UI elements to new design updates.
+
 ## [1.2.7] [11-28-2025] 
 
 - Fixed issue with Play store purchases sometimes not syncing properly.
