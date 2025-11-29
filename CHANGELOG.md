@@ -2,6 +2,10 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.2.6] [11-28-2025]
+
+- Added option to set default sort order for your public profile page from the Profile>Appearance tab.
+
 ## [1.2.5] [11-27-2025]
 
 - Fixed issue with jumpy search text on user collection page.
