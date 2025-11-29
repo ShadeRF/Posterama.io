@@ -2,6 +2,10 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.2.7] [11-28-2025] 
+
+- Fixed issue with Play store purchases sometimes not syncing properly.
+
 ## [1.2.6] [11-28-2025]
 
 - Added option to set default sort order for your public profile page from the Profile>Appearance tab.
