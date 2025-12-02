@@ -2,6 +2,23 @@
 
 All notable changes to Posterama will be documented in this file.
 
+## [1.2.12] [12-1-2025]
+
+- Added new help center with documentation on all aspects of the site. Please report any errors!
+
+## [1.2.11] [12-1-2025]
+
+- Fixed date display bug on stats page.
+
+## [1.2.10] [11-30-2025]
+
+- Behind the scenes tweaks to prepare for next set of updates.
+
+## [1.2.9] [11-29-2025]
+
+- Expanded Achievements system is now live. There are now many more achievements to be earned with various tiers within each to unlock. This is now located on the new Achievments page from the side navbar.
+- Custom image is now required when adding a poster to the poster library.
+
 ## [1.2.8] [11-29-2025]
 
 - More unification of UI elements to new design updates.
