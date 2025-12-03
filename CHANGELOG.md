@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.13] - 2025-12-02
+
+### Added
+
+- New Insurance Report feature for Pro users. Generate a detailed report of your collection for insurance purposes.
+- Multiple image management for Press Books and Stills on the user poster edit page. You can now add, remove, and reorder additional images when editing these poster types.
+
+### Fixed
+
+- Issue where back button would loop between poster edit and detail pages after saving changes.
+- Loading flash that would appear when saving an edited user poster.
+- Subscription sync issues with Stripe that could cause subscription status to not update correctly.
+- Session handling issue where expired authentication tokens could cause features to behave as if user was on free tier. The app now automatically refreshes tokens and re-authenticates when needed.
+
 ## [1.2.12] - 2025-12-01
 
 ### Added
