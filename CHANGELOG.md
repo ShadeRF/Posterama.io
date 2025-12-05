@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.2.14] - 2025-12-05
+
+### Added
+
+- **Public Poster Library**: The Poster Library is now accessible to non-authenticated users. Anyone can browse and explore the poster collection without signing in, making it easier to discover posters before creating an account.
+- **Email Preferences**: New email preferences section in your profile settings. Control which types of emails you receive:
+  - Marketing & Promotions
+  - New Features announcements
+  - Tips & Tricks guides
+  - Marketplace Alerts
+- **Unsubscribe Page**: Direct unsubscribe links in emails now lead to a dedicated page where you can manage your email preferences or unsubscribe from all emails.
+
+### Changed
+
+- Artist submissions on poster types now require authentication. You must be signed in to submit artist information.
+- Improved sitemap for better search engine discoverability.
+
+### Fixed
+
+- iOS analytics tracking now works correctly.
+
 ## [1.2.13] - 2025-12-02
 
 ### Added
