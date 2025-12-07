@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.15] - 2025-12-06
+
+### Fixed
+
+- Minor stability enhancements for mobile.
+
 ## [1.2.14] - 2025-12-05
 
 ### Added
