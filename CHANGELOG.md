@@ -1,5 +1,36 @@
 # Changelog
 
+## [1.2.18] - 2025-12-11
+
+### Changed
+
+- Increased reCAPTCHA score threshold for sign-up to reduce bot accounts.
+- Improved safe area handling for better mobile layout consistency.
+
+### Fixed
+
+- Mobile in-app purchases now sync correctly with subscription status.
+- Various mobile layout fixes for iOS.
+
+## [1.2.17] - 2025-12-09
+
+### Changed
+
+- Upgraded to Capacitor 8 for improved mobile app performance and stability.
+- Updated Stripe integration to latest API version (2025-09-30) for better payment reliability.
+- Removed onboarding video from registration flow for faster account setup.
+
+### Fixed
+
+- Home page now displays correct page titles.
+- Added bot protection to sign-up process to prevent spam accounts.
+
+## [1.2.16] - 2025-12-07
+
+### Fixed
+
+- Contributing user was display user id instead of username on mobile.
+
 ## [1.2.15] - 2025-12-06
 
 ### Fixed
