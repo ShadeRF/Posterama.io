@@ -1,6 +1,6 @@
 # Posterama Public Roadmap & Issue Tracker
 
-Welcome to the official **Posterama Roadmap and Issue Tracker**! 🎬
+Welcome to the official **Posterama Roadmap and Issue Tracker**! 
 
 This repository is used to:
 - Share our **roadmap**: what we're working on, what's planned, and what’s been completed.
