@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.20] - 2025-12-14
+
+### Changed
+
+- **Movie Release Year Display**: The year shown next to movie titles on poster detail pages now displays the actual movie release year from TMDB, rather than the poster year. This provides more accurate context about when the film was released. The poster year (which may differ for re-releases, anniversary editions, etc.) is still shown in the Poster Specifications section.
+
 ## [1.2.19] - 2025-12-13
 
 ### Added
