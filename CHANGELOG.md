@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.19] - 2025-12-13
+
+### Added
+
+- **Search by Production Company**: You can now search for posters by production company (e.g., Studio Ghibli, Pixar, Marvel Studios). Find all posters from your favorite studios instantly.
+- **Search by Franchise/Collection**: Search for posters by movie franchise or collection (e.g., Star Wars Collection, Marvel Cinematic Universe, James Bond Collection). Quickly locate all posters from a series.
+
 ## [1.2.18] - 2025-12-11
 
 ### Changed
