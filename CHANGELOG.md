@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.2.23] - 2025-12-31
+
+### Changed
+
+- Various package updates for improved stability and security.
+
+### Fixed
+
+- Custom size display now shows correctly on poster details.
+- Movie release year data now properly syncs with search functionality.
+
 ## [1.2.20] - 2025-12-14
 
 ### Changed
