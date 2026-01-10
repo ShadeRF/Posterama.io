@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.24] - 2026-01-10
+
+### Added
+
+- **Search Your Collection by Production Company & Franchise**: The production company and franchise search features (introduced in 1.2.19) now work on your personal poster collection, not just the Poster Library. Search your own posters by studio (e.g., Studio Ghibli, Pixar) or movie franchise (e.g., Star Wars Collection, MCU).
+
+### Changed
+
+- Various package updates for improved stability and security.
+
 ## [1.2.23] - 2025-12-31
 
 ### Changed
