@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.27] - 2026-01-24
+
+### Added
+
+- **Grid Trackers (Beta)**: A new way to visualize and track your poster collection progress. Create custom grids based on a director's filmography, actor's movies, or movie franchises. Track which posters you own across different formats (One-Sheet, Insert, Lobby Card, etc.) in a visual grid layout. *This feature is currently in beta and not available to all users.*
+
+## [1.2.26] - 2026-01-15
+
+### Added
+
+- **"In Your Collection" Banner on Movie/TV Pages**: When browsing poster types on movie or TV show detail pages, posters that are already in your collection now display an "In Your Collection" banner, matching the behavior in the Poster Library.
+
 ## [1.2.24] - 2026-01-10
 
 ### Added
