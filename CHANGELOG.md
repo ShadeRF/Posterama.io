@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.28] - 2026-01-25
+
+### Added
+
+- **Image Rotation**: You can now rotate images when adding or editing posters. After uploading an image, rotation controls appear allowing you to rotate the image 90 degrees left or right. Rotation is applied server-side for consistent results across all platforms.
+
+### Fixed
+
+- Fixed duplicate key warning in SignatureSelector when the same actor appears multiple times in the cast list (playing different characters).
+
 ## [1.2.27] - 2026-01-24
 
 ### Added
