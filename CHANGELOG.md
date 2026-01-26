@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.2.29] - 2026-01-26
+
+### Added
+
+- **Grid Tracker TV Show Support**: Grid Trackers now support TV shows in addition to movies. Create grids based on an actor's TV appearances or a director's television work.
+- **Grid Tracker Artist Filtering**: Filter your grid tracker by poster artist. See which artists have created posters for films in your grid and filter to show only posters by specific artists.
+- **Grid Tracker Exclusions**: Exclude specific movies or TV shows from a grid. Useful for removing short films, documentaries, or other entries you don't want to track.
+
+### Changed
+
+- **Lobby Card Sorting**: When sorting your collection or the Poster Library by title, lobby cards now sort in proper order: Title Card first, followed by Card #1, Card #2, etc. Previously, lobby cards for the same movie would appear in arbitrary order.
+
+### Fixed
+
+- Actor search now works correctly on TV show pages. Previously searching for an actor from a TV show page would not return their TV appearances.
+- Improved sorting behavior on public profile collection pages.
+- Fixed grid tracker column count display issues.
+- Fixed floating selection bar sometimes appearing behind the footer when selecting multiple posters.
+
 ## [1.2.28] - 2026-01-25
 
 ### Added
