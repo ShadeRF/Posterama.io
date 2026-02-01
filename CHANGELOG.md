@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.30] - 2026-01-31
+
+### Added
+
+- **Premium Subscriber Badges**: Premium subscribers now display a badge on their public profile and in the app header.
+- **Grid Tracker Mobile Support**: Grid Trackers are now accessible from the mobile app navigation drawer. 
+
+### Fixed
+
+- Fixed RevenueCat subscription status not syncing correctly on mobile.
+- Fixed lightbox on public profile and public wishlist pages missing zoom/pan functionality. The fullscreen image viewer now matches the collection and poster library behavior with pinch-to-zoom, scroll-to-zoom, and pan support.
+
 ## [1.2.29] - 2026-01-26
 
 ### Added
@@ -7,6 +19,7 @@
 - **Grid Tracker TV Show Support**: Grid Trackers now support TV shows in addition to movies. Create grids based on an actor's TV appearances or a director's television work.
 - **Grid Tracker Artist Filtering**: Filter your grid tracker by poster artist. See which artists have created posters for films in your grid and filter to show only posters by specific artists.
 - **Grid Tracker Exclusions**: Exclude specific movies or TV shows from a grid. Useful for removing short films, documentaries, or other entries you don't want to track.
+- **Japanese STB Tatekan 2-panel Size**: Added new Japanese poster size option (20×57 inches / 51×145 cm) for the tall Tatekan format.
 
 ### Changed
 
@@ -18,6 +31,7 @@
 - Improved sorting behavior on public profile collection pages.
 - Fixed grid tracker column count display issues.
 - Fixed floating selection bar sometimes appearing behind the footer when selecting multiple posters.
+- Fixed grid tracker lobby card tooltip showing incorrect count when a card has both "Title Card" and "Card #1" tags.
 
 ## [1.2.28] - 2026-01-25
 
