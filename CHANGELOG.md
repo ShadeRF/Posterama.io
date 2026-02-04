@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.3.0] - 2026-02-03
+
+### Added
+
+- **Incomplete Lobby Cards Tracker**: A new built-in Quick Start template that automatically finds movies in your collection with incomplete lobby card sets and displays them in a tracker grid.
+- **Emoji Picker for Trackers**: The tracker create and edit forms now include an emoji picker for the icon field, matching the collection form behavior.
+- **Crew Role Filter**: When creating a person-based tracker, you can now filter by Cast or Crew roles. The Crew filter includes all behind-the-scenes credits (director, producer, writer, editor, cinematographer, composer, etc.), not just directing credits.
+
+### Changed
+
+- **Grid Trackers Open to All Users**: Grid Trackers are no longer a beta feature — they are now available to all users without requiring access grants.
+- **Tracker Cards Redesigned**: Tracker cards on the list page are now displayed in a compact grid layout (up to 3 columns) instead of full-width rows.
+- **Trackers Default to Public**: New trackers are now public by default instead of private.
+- Removed tracker access toggle from the admin User Management page.
+- Renamed role filter labels from "Actor (Cast)" / "Director (Crew)" to "Cast" / "Crew" for clarity.
+
+### Fixed
+
+- Fixed horizontal scrollbar appearing in tracker create/edit dialogs when clicking into filter fields.
+- Fixed emoji picker button overlapping the icon field label in tracker dialogs.
+
 ## [1.2.30] - 2026-01-31
 
 ### Added
