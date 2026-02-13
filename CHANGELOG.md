@@ -1,5 +1,35 @@
 # Changelog
 
+## [1.3.6] - 2026-02-12
+
+### Added
+
+- Profile image cropping support when uploading or editing profile pictures.
+- Japanese B4 poster size.
+
+### Fixed
+
+- Image rotation issue on server for profile images.
+- Cache invalidation improvements for more reliable data freshness.
+
+## [1.3.5] - 2026-02-06
+
+### Fixed
+
+- Fixed image rotation issues on mobile apps.
+
+## [1.3.1] - 2026-02-06
+
+### Added
+
+- **Double Bill / Multi-Movie Poster Support**: Posters that feature multiple movies (double bills, triple features, combo posters) are now fully supported. When adding or editing a poster type, you can search for and attach up to 5 additional movies. Multi-movie posters display all featured titles on poster cards, detail pages, and public profiles, and are fully searchable by any of the featured movie titles.
+
+### Fixed
+
+- Fixed double bill posters not appearing in search results when searching by any of the featured movie titles.
+- Fixed double bill posters not displaying correctly on public profile pages and gallery lightbox.
+- Fixed footer overlapping content on some pages.
+
 ## [1.3.0] - 2026-02-03
 
 ### Added
