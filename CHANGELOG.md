@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.9] - 2026-02-21
+
+### Added
+
+- **Wishlist Search, Sort & Filtering**: The wishlist page now supports full-text search, sort options, and tab-based filtering by poster category (All, Posters, Lobby Cards, Press Books, Stills). Search and filter state is preserved in the URL for shareable links and back-button support.
+
+### Fixed
+
+- Fixed incorrect missing cards count on the incomplete lobby cards tracker. Sets with a mix of numbered and unnumbered cards were undercounting the total missing.
+- Fixed page flash/layout issues.
+- Mobile profile page improvements.
+
 ## [1.3.6] - 2026-02-12
 
 ### Added
