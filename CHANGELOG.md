@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.11] 2026-03-02
+
+### Added
+
+- Added the ability to feature upto 12 posters at the top of your public user profile page.
+
+## [1.3.10] 2026-02-26
+
+#### Fixed
+
+- Fixed issue with gallery view introduced in 1.3.9
+
 ## [1.3.9] - 2026-02-21
 
 ### Added
