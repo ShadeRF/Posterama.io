@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.3.12] - 2026-03-08
+
+### Changed
+
+- Removed unused dependencies to reduce bundle size.
+- Various package updates (MUI 7.3.9, Sentry 10.42, ESLint 10.0.3, Typesense 3.0.2, and others).
+
+### Fixed
+
+- Fixed user matching on public profile pages not returning correct results in some cases.
+
 ## [1.3.11] 2026-03-02
 
 ### Added
