@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.13] - 2026-03-11
+
+### Added
+
+- **Poster Library Stats Tab**: New Stats tab in the Poster Library showing a visual breakdown of the collection by decade, country, type, and genre. Click any stat to filter the library to that category.
+- **Prints Tab**: Added a dedicated Prints tab to both the Poster Library and My Collection pages for easier browsing of print-type posters.
+- **Wishlist Count on Poster Type Detail**: Poster type detail pages now show how many users have the poster on their wishlist, alongside the existing collectors count.
+- **Clickable Movie Titles in Gallery Lightbox**: Movie titles in the gallery lightbox now link directly to the movie or TV show detail page.
+
 ## [1.3.12] - 2026-03-08
 
 ### Changed
