@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.14] - 2026-03-14
+
+### Fixed
+
+- **Manage Subscription**: Fixed an issue where clicking "Manage Subscription" on the billing page could fail to open the Stripe billing portal.
+- **Mobile App Stability**: Fixed a crash that could occur on older Android devices when viewing pages with formatted text content.
+- **Collection Page Stability**: Fixed an intermittent error that could occur when browsing your poster collection.
+
+### Performance
+
+- **Faster Poster Library**: Reduced the number of API calls when browsing the Poster Library, resulting in faster page loads for logged-in users.
+
 ## [1.3.13] - 2026-03-11
 
 ### Added
