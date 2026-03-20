@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.3.16] - 2026-03-20
+
+### Added
+
+- **Storage Condition Filter**: Added a new Storage filter to the My Collection page. Filter your posters by storage method (Rolled, Folded, Tri-folded, Flat) with facet counts showing how many posters match each option. Filter state is preserved in the URL.
+
+## [1.3.15] - 2026-03-16
+
+### Changed
+
+- **Poster Library Contributions**: The "contributed by" label on poster type cards is now only visible to premium subscribers.
+- Restored the "In Your Collection" banner on movie and TV detail pages.
+
+### Fixed
+
+- Fixed an issue with Grid Trackers where person-based trackers (e.g., Steven Spielberg) could return incorrect results.
+- Minor Typesense service fix for collection queries.
+
 ## [1.3.14] - 2026-03-14
 
 ### Fixed
