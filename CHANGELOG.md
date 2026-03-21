@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.17] - 2026-03-21
+
+### Added
+
+- **Paper Banner Poster Sizes**: Added Small Paper Banner (5x25 inches) and Large Paper Banner (Various Sizes) under US poster sizes.
+- **Lobby Card Tag Suggestions**: When adding or editing a lobby card poster type, suggested tags (Title Card, Card #1 through Card #8) now appear as clickable chips for quick tagging.
+- **Re-release Tag Suggestion**: When the poster year differs from the movie's original release year, a "Re-release" tag suggestion automatically appears.
+
+### Fixed
+
+- Fixed tag spacing on poster cards.
+
 ## [1.3.16] - 2026-03-20
 
 ### Added
