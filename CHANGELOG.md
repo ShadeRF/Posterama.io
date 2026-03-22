@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.3.19] - 2026-03-22
+
+### Added
+
+- **Edition & Print Run on Poster Cards**: Print posters now display their edition number and print run inline on the card (e.g., `Print · #24 / 230`). If no edition number is set, the total print run is shown instead.
+- **Linen Backed & Double Sided on Poster Cards**: User poster cards now display "Linen Backed" or "Double Sided" inline next to the poster type name when applicable.
+
+## [1.3.18] - 2026-03-22
+
+### Added
+
+- **Prints Tab in Poster Type Selector**: When adding a poster to your collection, the poster type selector now includes a dedicated Prints tab for easier browsing alongside Posters, Lobby Cards, Press Books, and Stills.
+
+### Fixed
+
+- **Print Edition Number Not Saving**: Fixed a bug where the edition number was not saved when initially adding a print to your collection. The value would only persist after going back and editing the poster.
+- Updated Large Paper Banner dimensions to 24x82 inches (61x208 cm).
+
 ## [1.3.17] - 2026-03-21
 
 ### Added
