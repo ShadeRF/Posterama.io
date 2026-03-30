@@ -1,11 +1,33 @@
 # Changelog
 
+## [1.3.20] - 2026-03-28
+
+### Added
+
+- **Smart Cascading Filters**: Filter dropdowns in My Collection and Poster Library now dynamically update based on your selections. Selecting a country narrows the available sizes, decades, genres, and more to only valid combinations — with live counts showing how many posters match each option.
+- **Per-Filter Clear**: Each filter section now has a "Clear" link so you can reset one filter without clearing them all.
+- **Scroll Indicator on Filter Dropdowns**: Dropdowns with more options than visible now show a "more" hint at the bottom that disappears when you scroll to the end.
+- **Poster Library Filter Counts**: Filter options in the Poster Library now show counts next to each option, matching the My Collection experience.
+
+### Changed
+
+- **Faster Search & Stats**: Significant performance improvements across the app. Dashboard stats, collection rankings, grid trackers, and achievement calculations all load noticeably faster through batched search queries.
+
+### Fixed
+
+- **Achievement Card Dates**: Achievement cards now show when your current tier was reached, not when the achievement was first unlocked. Hover to see the exact date.
+- **Genre Filter**: Fixed an issue where filtering by genre could return incorrect results.
+
 ## [1.3.19] - 2026-03-22
 
 ### Added
 
 - **Edition & Print Run on Poster Cards**: Print posters now display their edition number and print run inline on the card (e.g., `Print · #24 / 230`). If no edition number is set, the total print run is shown instead.
 - **Linen Backed & Double Sided on Poster Cards**: User poster cards now display "Linen Backed" or "Double Sided" inline next to the poster type name when applicable.
+
+### Removed
+
+- Removed unused legacy `PosterCard` component (replaced by `UniversalPosterCard`).
 
 ## [1.3.18] - 2026-03-22
 
