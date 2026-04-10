@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.3.23] - 2026-04-08
+
+### Changed
+
+- **UI Framework Upgrade**: Upgraded the core UI framework to the latest major version, bringing improved performance, accessibility, and rendering across all pages.
+- **Dependency Updates**: Updated several backend and frontend libraries for improved stability and security.
+
+## [1.3.22] - 2026-04-03
+
+### Added
+
+- **German A2 Poster Size**: Added A2 (16.25×23.25 inches / 42×60 cm) to the German poster size options.
+
+## [1.3.21] - 2026-03-31
+
+### Fixed
+
+- **Faster Collection Page Loading**: The Collection page now loads poster details in a single batch request instead of fetching each one individually, significantly reducing load times for large collections.
+- **Faster Wishlist Page Loading**: The Wishlist page now batch-loads poster type details instead of making a separate request per card, dramatically improving performance.
+
 ## [1.3.20] - 2026-03-28
 
 ### Added
