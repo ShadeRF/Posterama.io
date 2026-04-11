@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.3.25] - 2026-04-11
+
+### Added
+
+- **Wishlist Removal on Add**: When you add a poster to your collection that's on your wishlist, the success page now offers a quick "Remove from Wishlist" button so you can keep your wishlist up to date without extra steps.
+- **Profile Photos in Public Profile Modal**: When viewing a poster on someone's public profile, the detail modal now shows profile photos for cast, director, and autograph credits.
+
+### Changed
+
+- **Improved Poster Detail Layout**: Genres now appear above the director credit on poster detail pages for a more natural reading flow.
+
+### Fixed
+
+- **Consistent Card Styling**: Wishlist cards now match the Poster Library's visual style — same button design, icon treatment, and layout for a more polished, consistent experience across the app.
+- **Data Preservation on Updates**: Fixed an issue where editing a poster or other items could unintentionally clear certain fields. Updates now preserve all existing data correctly.
+- **Missing Poster Fields**: Several poster details (artist, decade, signatures, and more) now load correctly from search results, fixing cases where some information wasn't appearing on cards or detail views.
+
 ## [1.3.23] - 2026-04-08
 
 ### Changed
