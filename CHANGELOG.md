@@ -1,11 +1,13 @@
 # Changelog
 
-## [1.3.25] - 2026-04-11
+## [1.3.26] - 2026-04-11
 
 ### Added
 
 - **Wishlist Removal on Add**: When you add a poster to your collection that's on your wishlist, the success page now offers a quick "Remove from Wishlist" button so you can keep your wishlist up to date without extra steps.
 - **Profile Photos in Public Profile Modal**: When viewing a poster on someone's public profile, the detail modal now shows profile photos for cast, director, and autograph credits.
+- **Search Qualifiers**: Narrow your search to a specific field using prefixes like `movie:laura`, `actor:tom hanks`, `director:spielberg`, `artist:drew struzan`, and more. Works across My Collection, Poster Library, and Wishlist. A dropdown menu in the search bar shows all available options.
+- **Expanded Wishlist Search**: Wishlist search now covers country, genre, director, artist, size, and type — previously only title and notes were searchable.
 
 ### Changed
 
