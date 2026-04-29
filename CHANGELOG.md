@@ -1,12 +1,50 @@
 # Changelog
 
+## [1.5.0] - 2026-04-29
+
+### Added
+
+- **Type Counts on Collection Tabs**: The Posters / Prints / Lobby Cards / Press Books / Stills tabs on your Collection, the Poster Library, and public profile pages now show the number of posters in each category right next to the label (e.g., "Posters · 87").
+- **Type Counts on Wishlist Tabs**: The same per-type counts now appear on Wishlist tabs so you can see at a glance how many of each format you're hunting for.
+- **Filter by Type on Public Profiles**: You can now filter another collector's public collection by poster type using the same tab strip you see on your own collection. Tab choice is saved in the URL so links like `/user/someone?type=lobbyCards` take you straight to that slice — great for sharing a specific subset of a collector's collection.
+- **Dynamic Share Previews**: Sharing a link to a poster, a poster type, or a collector's public profile on social media or in messaging apps now shows a proper preview image generated on the fly — including the poster artwork, title, and framing. Works for poster types, user posters.
+- **Poster Size Dimensions Visible Everywhere**: Hover any size chip on a poster card to see the actual dimensions (e.g., "27×40 inches (69×102 cm)"). On the poster detail page, dimensions appear in smaller text right under the size name so you don't have to look it up.
+- **Italian 6 Fogli Size**: Added "6 Fogli" (55×118 inches / 140×300 cm) to the Italian poster size options.
+- **Grid Tracker Lobby Card Linking**: Clicking a lobby card cell on a grid tracker now drops you into your collection filtered to that movie's lobby cards, so you can review what you've got at a glance.
+- **Auto-Load on Movie/TV Poster Picker**: When picking a poster type on a movie or TV detail page, additional results now load automatically as you scroll instead of needing to tap a "Load More" button.
+- **Smarter Sort on Movie/TV Poster Picker**: Sorting by year now keeps US versions grouped together first, then alphabetical by country, then by size — so the same year reads as a clean list of variants instead of jumping around. Country and Size sorts get the same secondary-sort treatment, and Size now follows the natural order of the poster-types list (One-Sheet, Insert, Half-Sheet…) rather than alphabetical.
+
+### Changed
+
+- **Faster First Load for Public Pages**: Public profile pages, poster type pages, and legal pages now render on the server for noticeably faster first paint and proper share-link previews. Navigation between routes keeps the sidebar and layout in place instead of flashing.
+- **Snappier Page Loads**: Font preloading, better bundle splitting, and vendor separation cut down on layout shift (things jumping around while the page loads) and get content in front of you sooner.
+- **Bigger Share Preview Images**: The poster image inside shared link previews now renders larger and cleaner across Slack, iMessage, Discord, and other platforms.
+
+### Fixed
+
+- **Year Field When Cataloguing a New Poster Type**: Adding a new poster type through "Add to Collection" or the sell flow now auto-fills the Year field from the movie's release year. This had been silently blank since mid-April.
+- **Duplicate "Lobby Card" Size Option**: The Size dropdown on the Add Poster Type form showed "Lobby Card" twice for US and some other countries; now appears once.
+- **Feedback Button Wording on Order Detail**: Sellers viewing a completed order now see "Leave feedback for buyer" (previously always said "for seller" regardless of which side you were on).
+- **Modal & Lightbox Direct Links**: Deep links to poster lightboxes now close cleanly, and mobile drawer swipe-to-close is restored. Modals opened via URL also dismiss correctly.
+- **Sidebar Flash on Navigation**: The sidebar no longer briefly disappears when moving between pages.
+- **Profile Page Layout Shift**: The logo, fonts, and profile photo no longer cause the page to jump around as they load.
+- **Collection Rankings Page Was Blank in Production**: The leaderboard at `/stats/rankings` was returning no collectors. Fixed.
+- **Mobile App Showed Contributor IDs Instead of Names**: On the poster type detail page in the Android/iOS app, the "Contributed by" field showed a short user ID instead of the contributor's display name and avatar. Fixed.
+- **Poster Detail Page 500 Error**: An occasional Firestore hiccup while computing the "X collectors / Y wishlists" stats could fail the entire poster type detail page with a server error. Counts now degrade gracefully to 0 instead of taking down the page.
+- **Add to Collection Scroll Position**: After creating a brand-new poster type and being moved to the "Add to Collection" step, the page now scrolls back to the top instead of leaving you stranded mid-form.
+- **Add Success Page Sometimes Showed Blank Info**: An intermittent timing issue caused the "Poster added!" confirmation to occasionally show empty title/country/size info. Fixed across Add to Collection, Profile, and other navigation hand-offs.
+- **Wishlist Tabs Crashed When Switching**: Switching between Posters / Lobby Cards / etc. on the Wishlist could throw a "Rules of Hooks" error and bounce you to an error page. Fixed.
+- **Poster Library Scroll Restoration**: Returning to the Poster Library from a detail page now reliably puts you back where you were instead of jumping to the top.
+- **Public Profile Tab Scroll**: Switching tabs on someone's public profile no longer scrolls the page back to the top mid-browse.
+- **User Profile Setup**: Onboarding completion is now correctly tracked when a profile is created, so you won't be re-prompted to onboard after signing up.
+
 ## [1.3.26] - 2026-04-11
 
 ### Added
 
 - **Wishlist Removal on Add**: When you add a poster to your collection that's on your wishlist, the success page now offers a quick "Remove from Wishlist" button so you can keep your wishlist up to date without extra steps.
 - **Profile Photos in Public Profile Modal**: When viewing a poster on someone's public profile, the detail modal now shows profile photos for cast, director, and autograph credits.
-- **Search Qualifiers**: Narrow your search to a specific field using prefixes like `movie:laura`, `actor:tom hanks`, `director:spielberg`, `artist:drew struzan`, and more. Works across My Collection, Poster Library, and Wishlist. A dropdown menu in the search bar shows all available options.
+- **Search Qualifiers**: Narrow your search to a specific field using prefixes like `movie:laura`, `actor:tom hanks`, `director:spielberg`, `artist:drew struzan`, and more. Works across My Collection, Poster Library, Wishlist, and Marketplace. A dropdown menu in the search bar shows all available options.
 - **Expanded Wishlist Search**: Wishlist search now covers country, genre, director, artist, size, and type — previously only title and notes were searchable.
 
 ### Changed
@@ -18,6 +56,7 @@
 - **Consistent Card Styling**: Wishlist cards now match the Poster Library's visual style — same button design, icon treatment, and layout for a more polished, consistent experience across the app.
 - **Data Preservation on Updates**: Fixed an issue where editing a poster or other items could unintentionally clear certain fields. Updates now preserve all existing data correctly.
 - **Missing Poster Fields**: Several poster details (artist, decade, signatures, and more) now load correctly from search results, fixing cases where some information wasn't appearing on cards or detail views.
+- **Public Profile Sort Order**: Sorting by release year on public profile and gallery pages now groups posters correctly — same year, then alphabetical by title, then lobby card order — matching the My Collection sort behavior.
 
 ## [1.3.23] - 2026-04-08
 
