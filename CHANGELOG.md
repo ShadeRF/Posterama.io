@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.5.1] - 2026-05-30
+
+### Added
+
+- **Include / Exclude Filters**: Every filter now has an Include/Exclude toggle — Country, Size, Type, Condition, Decade, Genre, Director, and Storage. Flip it to Exclude and your results show everything *except* what you picked (e.g. Size · Exclude · "Mini" shows every size but mini). Excluded picks appear as red outlined chips, and the choice is saved in the page link so it survives reloads and shareable URLs. Works across My Collection, the Poster Library, and admin poster management.
+- **Size Dimensions on Poster Type Pages**: The poster type detail page now shows the actual measurements (e.g. "27×40 inches") in small text right under the size name, matching the size chips used elsewhere in the app.
+
+### Changed
+
+- **Truer Poster Colours**: Uploaded scans that carry an embedded colour profile (like Adobe RGB) are now converted to standard sRGB when processed, so the re-saved images render with more accurate colour in browsers.
+
+### Fixed
+
+- **New Accounts Stuck on Onboarding**: Some brand-new users were trapped on the "set up your profile" step even after their profile had been created. Signup now completes cleanly the first time.
+- **Watchlist "Ending Soon" Alerts**: The 24-hour and 1-hour auction-ending notifications for items on your watchlist had quietly stopped sending. They're working again.
+- **Poster Type Pages Occasionally Failing to Load**: An intermittent database hiccup could make a poster type page error out and drop its "collectors / wishlists" counts. The connection is now kept alive and the counts fall back gracefully instead of taking down the page.
+- **Edits Now Show Up Immediately**: Editing, reassigning, or merging a poster type now refreshes everyone's collection right away, instead of leaving the old title, artwork, or size showing for up to 15 minutes.
+- **Duplicate Poster Types**: Closed a gap that could let a duplicate poster type slip through right after one was created or deleted for the same movie.
+- **Achievements Reflecting Changes Right Away**: Choosing a showcase achievement now updates immediately instead of occasionally showing your previous selection.
+- **Removed Movies No Longer Break Pages**: When a movie has been removed or merged on the movie database, affected pages now carry on gracefully instead of erroring, and the app stops needlessly re-checking entries it already knows are gone.
+
 ## [1.5.0] - 2026-04-29
 
 ### Added
