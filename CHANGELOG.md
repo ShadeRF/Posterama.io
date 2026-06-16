@@ -1,5 +1,41 @@
 # Changelog
 
+## [1.5.5] - 2026-06-15
+
+### Added
+
+- **Friends & Following**: You can now follow other collectors and keep up with what they're adding. The new Friends hub has Following, Followers, an Activity feed of recent posters from collectors you follow, and a Leaderboard — plus a "Suggested for you" strip that recommends collectors followed by people you already follow.
+- **Recommended for You**: A new discovery page that surfaces poster types drawn from the genres you collect most, so it's easier to find more of what you love.
+- **Collector Regions**: Your profile can now show your region, making it easier to connect with collectors from the same part of the world.
+- **Age Verification**: Added an 18+ age check to comply with new app-store age-assurance requirements.
+
+### Changed
+
+- **Cleaner Public Profiles**: Public profile pages now have an option of a more compact, polished header that keeps the collection front and center.
+- **Notification Settings Shortcut**: The settings gear in the notifications panel now takes you straight to your Email Preferences.
+- **Sharper Poster Images**: Improved image processing for cleaner, better-looking poster artwork across the app.
+
+### Fixed
+
+- **Clearing Notifications Now Asks First**: The "clear all" button in the notifications panel used to wipe everything instantly — it now asks for confirmation so you can't lose your notifications by accident.
+- **Notifications Panel on Mobile**: On phones the panel could only be closed by tapping "View All Notifications". It now has a working close button and dismisses normally.
+- **Updated Poster Images Everywhere**: Fixed cases where a newly approved poster image didn't appear consistently across cards and detail pages.
+- **Print Submission Details**: Edition number and print-run details entered when submitting a print update are now saved correctly.
+
+## [1.5.3] - 2026-05-31
+
+### Fixed
+
+- **Mobile App Stability**: Restored reliable background subscription syncing and behind-the-scenes error reporting in the mobile app, and improved compatibility with older Android devices.
+
+## [1.5.2] - 2026-05-31
+
+### Fixed
+
+- **Exclude Filters in the Poster Library**: The Include/Exclude toggle on filters now works when browsing the Poster Library — switching a filter to Exclude correctly hides those results (e.g. Type · Exclude · "Theatrical Final"). Previously it only took effect in My Collection.
+- **Updated Poster Images Now Show Everywhere**: When a new poster image was approved, the detail page would show the new artwork while the Poster Library card sometimes kept showing the old one. The thumbnail and the full image now stay in sync. Posters affected by this in the past have also been corrected.
+- **Android App Icon**: Refreshed the Android home-screen icon so it no longer shows a faint purple edge and sits cleanly within the icon shape.
+
 ## [1.5.1] - 2026-05-30
 
 ### Added
