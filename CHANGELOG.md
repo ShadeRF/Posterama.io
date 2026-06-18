@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.5.7] - 2026-06-18
+
+### Added
+
+- **Incoming Posters (Pro)**: Bought a poster that's still on its way? You can now log it the moment you buy it — capture the movie, poster type, size, condition, price, where you got it, and an expected-arrival date — and it lands on a new **Incoming** tab in your collection so nothing slips through the cracks while you wait. When the package arrives, tap **It arrived**, add your photo, and it's promoted into your collection as a full entry. Incoming items are tracked separately and don't count toward your collection totals until they're in hand.
+
+### Changed
+
+- **New Add Menu**: The **+** button in the top bar (desktop and mobile) now opens a quick menu to either add a poster you already own or log an incoming one.
+- **Updates Apply Sooner**: New versions of the app now show up when you return to it after a break, instead of only after fully closing and reopening it.
+
+### Fixed
+
+- **Privacy Toggles Show Your Real Setting**: The "Make my profile public" and "Make my poster collection public" switches could appear on even when your account was actually set to private — so you couldn't tell your true setting at a glance. They now always reflect your real setting, and saving no longer risks flipping you public by accident.
+
 ## [1.5.5] - 2026-06-15
 
 ### Added
