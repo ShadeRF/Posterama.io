@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.5.9] - 2026-06-19
+
+### Added
+
+- **Sort Your Grid Tracker Rows**: A new sort button on a grid tracker lets you reorder the movies on the fly — by title (A–Z or Z–A), release year (oldest or newest first), or how complete each row is (most or least complete first). It's great for jumping straight to the titles you're closest to finishing. Sorting only changes how the grid is shown to you and doesn't alter your saved layout.
+
+### Fixed
+
+- **Large Grid Trackers Now Load Reliably**: A grid tracker covering a large number of movies could fail to load its ownership data and come up empty. Big trackers now load correctly.
+- **Grid Tracker Page No Longer Crashes**: Opening certain grid trackers could show an error screen instead of the grid. They now open as expected.
+- **Editing Crew-Based Grid Trackers Shows Every Title**: When editing a grid tracker built from someone's crew work (a producer, director, writer, etc.), the movie list only showed the handful of films they appeared in on screen instead of their full filmography. Editing now shows the same complete list you saw when you created the tracker.
+- **Grid Trackers With No Owned Posters Yet**: A tracker whose poster-type columns are discovered from your collection used to show a completely blank page until you owned at least one matching poster. It now lists all its movies right away, with a note that columns will appear as you add posters.
+
 ## [1.5.7] - 2026-06-18
 
 ### Added
