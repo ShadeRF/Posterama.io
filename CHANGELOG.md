@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.10] - 2026-06-25
+
+### Fixed
+
+- **Private Profiles Look Right**: Visiting a collector who has set their profile to private now shows a clear "This profile is private" message instead of a generic error screen.
+- **Stay Signed In Reliably**: Fixed an issue where the app could get stuck thinking you were still signed in after your session had quietly expired — flooding the app with errors and sometimes forcing you to open a fresh tab to recover. The app now notices an expired session and returns you to sign-in cleanly, and signing out fully clears your session right away.
+
 ## [1.5.9] - 2026-06-19
 
 ### Added
