@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.5.11] - 2026-06-27
+
+### Changed
+
+- **Incoming Posters — Attach to an Existing Library Entry**: When an incoming poster arrives and you tap **It arrived**, posters matched to a movie now let you attach to an existing library entry for that title instead of always creating a brand-new one. You'll see the existing entries for the movie and can pick one, or still choose to create a new entry as before. Either way, the condition, price, storage, tags, and other details you captured when you logged the incoming poster carry over automatically.
+
+### Fixed
+
+- **More Reliable Updates**: Fixed an issue that could occasionally cause the app to reload unexpectedly.
+
 ## [1.5.10] - 2026-06-25
 
 ### Fixed
