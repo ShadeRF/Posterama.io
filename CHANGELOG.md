@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.5.12] - 2026-06-30
+
+### Added
+
+- **A Reimagined Statistics Page**: Your collection stats have been completely redesigned. A new cinematic **Story** view scrolls through your collection like a showcase — an interactive world map of where your posters were printed, your collection across the decades, the shape of your taste (genres, directors and cast), condition and value, and standout scores for how it all measures up. Prefer a quick glance? Flip to the new **Cards** dashboard using the toggle in the top-right — it remembers whichever view you prefer. Along the way you'll find richer breakdowns than before: a full genre ranking, every format and size you own, a paid-versus-current value comparison, and Vintage, Grade and Eclecticism scores that capture your collection's character.
+- **Interactive World Map**: The new map brings your collection's origins to life — hover any country to see its poster count and rank, watch posters stream in to the places you collect, and click through to browse that country. Even former countries like Yugoslavia get their own markers, so every part of your collection is on the map.
+
+### Changed
+
+- **Refined Public Profile Viewer**: Opening a poster on someone's public profile now shows a cleaner, catalogue-style layout.
+- **Sharper Share Previews**: Links you share now generate better-looking preview images.
+
+### Fixed
+
+- **Images Load on More Networks**: Posters now load reliably on VPNs and networks that previously blocked our image host — they're served from our own image domain.
+
 ## [1.5.11] - 2026-06-27
 
 ### Changed
