@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.5.13] - 2026-07-05
+
+### Added
+
+- **Video Game Posters**: Posterama now collects more than movie and TV posters — you can catalogue **video game posters** too. Search for a game, open its page, and add (or edit) your poster just like you would for a film. Game entries use a dedicated **Game** poster type and offer sizes suited to where the poster was printed — the standard inch sizes everywhere, plus A-series formats in Europe and B-series in Japan.
+- **Filter the Library by Category**: The Poster Library's Filters now include a **Category** option, so you can browse just **Movies & TV**, just **Video Games**, or everything together.
+- **Filter Your Collection by Category**: The same **Movies & TV / Video Games** filter is now available in **My Collection**.
+- **Hide Video Game Posters**: Prefer to keep things film-only? A new **Hide Video Game Posters** switch in your profile's Browsing Preferences keeps games out of the Poster Library by default — you can always bring them back with the Category filter whenever you like.
+
+### Fixed
+
+- **Cleaner Search Results**: Movie, TV and game search results that don't have artwork now show a tidy placeholder instead of a broken-image icon.
+- **Poster Details Tidy-up**: Fixed a stray "0" that could appear on a poster's details popup.
+- **Smoother Collection Search**: Searching a collection on a public profile no longer flickers or jumps back to the top of the page as you type.
+- **Faster Collection Loading**: Your collection now loads its poster details in a single request, so large collections come up quicker.
+
 ## [1.5.12] - 2026-06-30
 
 ### Added
@@ -10,6 +26,7 @@
 ### Changed
 
 - **Refined Public Profile Viewer**: Opening a poster on someone's public profile now shows a cleaner, catalogue-style layout.
+- **Home Page Refresh**: The home page has new showcase sections that bring collections and grid trackers to life.
 - **Sharper Share Previews**: Links you share now generate better-looking preview images.
 
 ### Fixed
