@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.5.14] - 2026-07-17
+
+### Added
+
+- **Search by Alternate & Original Titles**: The Poster Library and your Collection now find a film by *any* of its names — its original-language title and its alternate/AKA titles — not just the primary title we show. So a poster catalogued as "Seven Waves Away" now also turns up when you search "Abandon Ship", and foreign films surface under their original titles too. This brings library search in line with what you'd expect from searching the movie database directly.
+
+### Fixed
+
+- **Alphabetical Sorting of Titles Like "Die Hard"**: Films whose title starts with a word that merely *looks* like a foreign article were being filed under the wrong letter — "Die Hard" sorted under **H** ("Hard"), "La La Land" under **L** ("La Land"), "I Am Legend" under **A**. They now sort correctly under their real first letter. Genuinely foreign-language films (like the German "Das Boot") still sort without their leading article, based on the film's actual language — so those land where you'd expect too. Applies across your Collection, the Poster Library, public profiles, and the gallery view.
+- **Add-a-Poster Crash for Translated Browsers**: Fixed a crash some collectors hit while adding a poster when their browser was auto-translating the page (common for non-English visitors). The add flow now holds up under page translation.
+- **Collection Page Error**: Fixed a rare error that could blank out the collection page for some collectors.
+- **Editing Video Game Posters**: Editing a video game poster now shows the correct poster types and sizes, and no longer risks turning it back into a movie poster on save.
+- **Video Game Poster Sizes**: Cleaned up the game size list — measurements now show inches alongside metric, the common standard sizes appear in every region (not just the US), and a duplicate entry was removed.
+- **Games Search Wording**: The Games tab in search now uses game-appropriate labels instead of the movie/TV/person wording.
+
 ## [1.5.13] - 2026-07-05
 
 ### Added
