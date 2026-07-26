@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.5.15] - 2026-07-25
+
+### Added
+
+- **Saved Views**: Got a set of filters you come back to again and again — US one-sheets from the 80s, or the lobby cards you keep in flat storage? You can now save that combination by name and bring it back in a click. Set your filters as usual, hit **Save** in the Filters panel, and give the view a name. **My Collection** and the **Poster Library** each keep their own views, and they follow you across devices — including the mobile app. You can also mark one view per page as your **default**, and it'll be applied automatically every time you open that page. Opening a link someone shared still shows exactly what they sent, so your default never gets in the way of a shared view. Free accounts can keep 10 saved views; Pro members get 100.
+
+### Fixed
+
+- **Filter Chips Always Show What's Applied**: The row of filter chips above your posters only appeared after you opened Filters and pressed Apply. When filters arrived any other way — from a bookmarked or shared link, using your browser's back and forward buttons, or from your **Hide Video Game Posters** preference — your posters were filtered correctly, but the chips row sat empty and made it look like nothing was on. The chips now always match what's actually applied.
+
 ## [1.5.14] - 2026-07-17
 
 ### Added
