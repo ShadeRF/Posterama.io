@@ -1,5 +1,79 @@
 # Changelog
 
+## [1.5.19] - 2026-09-11
+
+### Added
+
+- **Recent Sales, Reported by Collectors**: Every Poster Library entry now has a **Recent sales** section. If you've seen a copy of that exact edition sell, hit **Report a sale** and enter the price, the date and where it sold. Type any venue you like; Heritage Auctions, eMoviePoster, Propstore and eBay are suggested as you go, and common spellings are tidied so they group together. Condition and a link to the lot are optional. Everyone sees the list, five most recent first with the rest a tap away, and once two or more sales in the same currency are in, a low, median and high appear at the top. These are collector reports, not appraisals, and the page says so. You can remove anything you reported; moderators can remove anything.
+- **Jumbo Lobby Card**: Added the 14×17 inch Jumbo Lobby Card to the United States size list. Jumbo cards count as lobby cards on the **Lobby Cards** tabs across your collection, the library and your wishlist.
+- **Directors Are Links**: The director's name under a poster's title now opens their page, the same as the cast.
+
+
+### Changed
+
+- **Opening a Poster Feels Like One Motion**: Tapping a poster in your collection or the library no longer flashes a grey box, then a one-sheet-shaped placeholder, then the real image. The picture you tapped travels with you and is already in the frame, at its true shape, while the rest of the page fills in, and on browsers that support it the thumbnail glides into the frame. The buttons at the top no longer pop in and nudge the page either; their places are held from the first frame.
+- **Sharper Type, Smaller Download**: The app now uses two typefaces throughout, and the cards generated when you share a poster or profile link match the site instead of using fonts it had dropped. Fewer font files means pages start a little faster.
+- **Collection Export Is a Proper Spreadsheet**: The CSV export is now one row per poster with 33 columns, so it opens cleanly, sorts and pivots. Lists like tags and cast sit in a single cell each. Image links are no longer included; an **Own photo** column notes which posters use your own picture.
+- **"Also Known As" Starts Small**: The alternate-titles list under About the film shows the two that matter most, the poster's own market title and the original-language title, with the rest behind **Show more**.
+- **Clearer Counts on Library Entries**: The Library entry panel now says **Catalogued copies**, since that number counts every copy collectors have added, public and private. The **Collectors** section beneath counts only people with a public copy, so the two can legitimately differ. The Collectors header also says "other collectors" when you own a copy yourself.
+
+### Fixed
+
+- **Flash Along the Bottom of the Poster Viewer**: Hovering the close button on a poster opened from a public profile flashed a thin white line along the bottom edge of the viewer. Gone.
+- **Library Entry Panel on Phones**: A long contributor name no longer pushes the **Follow** button onto its own line, and **Suggest changes** no longer overflows the edge of the card.
+- **Poster Frame Off-Centre on Phones**: The framed artwork on poster pages sat against the right edge on narrow screens instead of centring. It centres now.
+
+## [1.5.18] - 2026-09-09
+
+### Changed
+
+- **A New Look for Poster Pages**: The page for a poster in your collection, and the matching page for an entry in the **Poster Library**, have been redesigned from the ground up. The artwork now takes close to half the screen and shows the whole image at its real proportions, so a half-sheet or lobby card gets the same presence as a one-sheet. Behind the title sits a still from the film that fades into the page. The old boxed tables are gone: the poster's facts — type, size with dimensions, country, year printed, condition, storage — sit on one clean row, with details like double-sided or linen-backed tucked under the fact they belong to. On phones the poster fills the width and the rest stacks beneath it.
+- **Your Record, in One Place**: Everything only you can see — what you paid, when and where you bought it, your estimated value, and your notes — now lives in a single tinted **Your record** panel with one lock icon, so it's obvious at a glance what's private. Your collections are listed at the foot of the panel, each opening straight to that collection, with an **Add to a collection** button right there.
+- **Poster Library Entries Match**: The library page uses the same layout, with a **Library entry** panel showing who contributed it, when, whether a moderator has verified it, how many collectors own and want it, and the **Suggest changes** and **Report a problem** actions together in one place. If you own copies, they're listed as a compact **Your copies** ledger, one row per copy, each opening its record.
+- **Actions Moved Up Top**: Edit, Sell, Library entry and Remove now sit together in the bar at the top of the page instead of being scattered down the page. On the library page, **Add to collection** is the one filled button, alongside Edit, Verify and Flag image for those who can use them.
+
+### Added
+
+- **Edit Notes Right on the Page**: Tap the pencil beside **Notes** to write or change your private notes in place — no trip to the full edit form. Ctrl+Enter saves, Escape cancels.
+- **Release Titles**: Many posters carry a different title from the one the film is known by. Where the film was released under another name in the poster's own country, it now says so under the title — for example, *Released in United States as The Black Glove* on a US half-sheet for *Face the Music*. The film section also lists every title the film went out under, with the flags of the markets that used it, the original-language title marked, and the poster's own market first.
+- **About the Film**: Below your record, a new section pulls in the film's synopsis, tagline, runtime, a scrolling cast strip with headshots that open each person's page, key credits, release date, studio, original title and franchise. TV series show seasons, network and status instead. A rating badge appears where TMDB has enough votes for it to mean something.
+- **Other Posters for This Film**: A handful of the other editions the library holds for the same film appear as a row of thumbnails, sized so as many as fit in two rows are shown, with a button through to the full list.
+- **Collectors Who Own This**: The library page now shows other collectors with a public copy of the same edition, as name pills that open their profiles. Collectors you follow come first and are marked, and anyone with more than one copy shows a count.
+- **Film Details Setting**: If you'd rather the page focus on the poster itself, open **Settings** (the gear icon, or the Settings page in the mobile app) and turn off **Film details**. The synopsis, cast, tagline, runtime and the full list of alternate titles are hidden, and the page tightens up to suit. The backdrop image and the *Released in … as* line stay, since those belong to the poster. It's on by default.
+
+### Fixed
+
+- **Report a Problem Was Unreachable**: The library page had a report dialog that nothing actually opened. It's now the **Report a problem** action in the Library entry panel, and it's disabled once you've already reported an entry.
+
+## [1.5.17] - 2026-08-24
+
+### Fixed
+
+- **Private Posters Were Showing on Public Profiles**: Posters you had marked private were still being listed on your public profile's Collection tab and in the gallery view, visible to anyone — including signed-out visitors. Only the Featured section was filtering correctly. Both now honour the private setting, while you and admins still see your own private posters when viewing your profile. If you have posters you meant to keep private, they are private now.
+- **Making a Poster Private Didn't Work**: The Public/Private switch on a poster's own page failed every time with an error and never saved — so posters you thought you had made private were quietly left public. It saves properly now, and your profile updates immediately instead of holding on to the old setting.
+- **Treated as a Free Member While Subscribed**: Occasionally a Pro member would suddenly be shown free-account limits — the "Collection Limit: 50 posters" banner and an upgrade prompt — even though everything else worked, and only signing out and back in fixed it. This happened when your sign-in quietly expired: the app couldn't confirm your plan and assumed the free tier. Now, if your session has genuinely expired, you're signed out and asked to sign back in rather than being left in a half-working state. And when your plan simply can't be confirmed, no limits or upgrade prompts are shown at all.
+- **Wrong Colours and Unreadable Text**: Some collectors saw the app come up half dark and half light, with text that was unreadable — black on black in places like the search box. This happened when your saved appearance settings differed from the defaults. The app now loads your theme consistently, and it tells the browser which colour scheme it's using so Chrome no longer applies its own darkening on top.
+- **Friends List Suddenly Showing Nobody**: Following a collector could make your Following, Followers, Suggested and Leaderboard lists all go empty, as though you weren't following anyone. Collector profiles now load in a single batched request rather than one per person, which was overwhelming the search service, and a list that genuinely fails to load now says so with a "Try again" button instead of pretending you have no friends.
+- **Faster Collector Profiles**: The same batching makes profile-heavy pages — the Friends hub, marketplace listings — noticeably quicker to fill in.
+
+### Changed
+
+- **Mini Posters Sort Last**: On a movie or TV show's page, mini posters now always appear at the end of the poster list no matter which sort you've chosen, so the full-size formats you're usually looking for stay at the top. Sorting within the minis still follows your chosen order.
+
+## [1.5.16] - 2026-08-15
+
+### Changed
+
+- **Table View Now Matches the Card View**: The table view of **My Collection** has caught up with the card view. It now shows the same set of tabs — **Prints** and **Incoming** were missing entirely — and every tab carries its poster count, so you can see at a glance how many lobby cards or press books you own without switching views. Flipping between cards and table also keeps you on the tab you were already on; before, it could quietly land you on a different one (**Prints** would become **Lobby Cards**, **Stills** would drop you back to **All**).
+
+### Fixed
+
+- **Posters You Own Marked as "Add to Collection"**: In the **Poster Library**, some posters you already own were showing **Add to Collection** with no **In Your Collection** banner — yet opening the poster showed your copy sitting right there. It hit hardest on pages where you own a lot of what's on screen (searching a favourite artist, say) and on collections with duplicate copies of the same poster, so a handful of cards per page would look unowned. Ownership is now worked out correctly no matter how many copies you own. The same fix applies to the poster lists on movie and TV pages.
+- **"Set Up Your Profile" Appearing for Existing Accounts**: Opening the mobile app could occasionally greet you with the profile setup wizard — username, display name, bio — even though your account was long since set up. It happened when the app made its first request before your sign-in had finished restoring, and once the wizard appeared it stayed for the rest of the session. The app now waits for your session before asking the server anything, and a failed request no longer gets mistaken for an empty profile.
+- **Faster Label Generation from the Prints Tab**: Generating labels while the **Prints** tab was open loaded your entire collection before picking out your selection. It now only loads the prints.
+- **Edge-to-Edge on More Android Devices**: The Android app now uses the full screen on every Android version it supports, not just recent ones. The app download is also smaller.
+- **Google Play Subscriptions**: Pro memberships bought through Google Play are now checked against Google's current subscriptions service, keeping renewal dates, expiry and cancellations accurate after Google retired the previous one.
+
 ## [1.5.15] - 2026-07-25
 
 ### Added
