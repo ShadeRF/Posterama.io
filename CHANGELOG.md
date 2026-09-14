@@ -1,5 +1,41 @@
 # Changelog
 
+## [1.5.21] - 2026-09-13
+
+### Added
+
+- **Tag Boxes Understand a List**: Typing `NSS, Style A, 1st Printing` into a tag box and hitting Enter used to save the whole line as one tag. It now adds three. Commas and line breaks separate tags, repeats are dropped, and if you need a comma *inside* a tag, wrap it in quotes — `"I, Borg"` stays one tag. Long lists typed on older versions of the mobile app are split when they're saved, too.
+- **A Nudge When a Tag Is Already Recorded**: If you tag a poster with something the record already holds — the film's title, country, size, year, decade, genre, a cast member, the director, the studio, the franchise or the artist — a note under the box points out that it's already searchable without a tag. It recognises a studio however it's written (`Warner Bros` for Warner Bros. Pictures), a genre's other spellings (`Sci-Fi`, `Musical`), a franchise without the word "Collection" (`Star Wars`), and a tag that's already part of the title, like `Star Wars` on *Rogue One: A Star Wars Story*. Tags that say which edition a poster is, such as `3D`, `IMAX` or `Director's Cut`, are never flagged. It's advice, not a rule: you can still add it, because there might be a good reason.
+- **Half Subway**: Added the 29½×45 inch Half Subway to the United States size list.
+
+### Fixed
+
+- **Hyphenated Titles in Search**: Searching `wreck it ralph` didn't find *Wreck-It Ralph*, and `x men` missed the X-Men films, because the search saw one word where you typed two. Searches in the library, your collection, your wishlist and the marketplace now find titles whether you type the hyphen or not.
+- **Clearing an Artist**: Emptying the artist field on a library entry and saving put the old artist straight back. It now clears.
+- **Poster Year**: A library entry's year can no longer be saved blank or as 0; it has to be a real year, and the form says so if it isn't.
+- **Gallery Columns Left Half Empty**: On public profiles, the masonry gallery let some columns run long while others sat nearly empty, and posters further down wouldn't load until you had scrolled a long way through the blank space. Columns are now filled by the real height of each poster, so the grid stays even and keeps loading as you scroll.
+- **Posters Briefly the Wrong Shape**: The first screenful of a gallery drew every poster as a one-sheet, so lobby cards and half-sheets looked stretched until you scrolled or reloaded. Each poster's proportions are now known before it's placed.
+- **Stale Profile and Collection Pages**: A caching layer could keep showing an out-of-date public profile or collection for the rest of a session after it had changed. It's gone; pages now refresh when the underlying data does.
+- **Pages Overscrolling on Phones**: Pages could scroll past their own bottom edge by roughly the height of the browser's address bar.
+
+### Changed
+
+- **Faster First Load**: Pages now download close to 30% less before they are usable. The world map on your statistics page, the collection table view, error reporting and several other pieces are fetched only when something actually needs them, and the posters at the top of a gallery are requested first so the first row appears sooner.
+- **Icons Render Instantly, and Offline**: Icons used to be fetched one by one as pages drew, so they popped in a moment late — and two were quietly rendering as blank squares because the names were wrong. They now ship with the app, so they appear with the page and work with no connection.
+- **Keyboard and Screen Reader Access**: Around a hundred cards and tiles that previously only responded to a mouse — poster cards, filter tabs, dashboard shortcuts, tracker cards and more — can now be reached with Tab and opened with Enter or Space, with a visible outline showing where you are. Icon-only buttons, dialogs and search boxes now have names a screen reader can read out.
+- **Behind the Scenes**: A broad clean-up of the app's internals and a round of dependency updates.
+
+## [1.5.20] - 2026-09-12
+
+### Fixed
+
+- **Search in the Mobile App**: Searching and browsing your collection in the iOS and Android apps stopped working for a short period today. This update restores it. If the app still shows an error, fully close and reopen it once so it can pick up the update.
+- **Newly Added Posters Appearing in Search**: For about ninety minutes today, posters added or edited did not show up in search until we caught it. Everything from that window has been re-synced, so nothing was lost.
+
+### Changed
+
+- **Behind the Scenes**: A large clean-out of unused code and a security review with fixes across the site and the mobile app.
+
 ## [1.5.19] - 2026-09-11
 
 ### Added
@@ -7,7 +43,7 @@
 - **Recent Sales, Reported by Collectors**: Every Poster Library entry now has a **Recent sales** section. If you've seen a copy of that exact edition sell, hit **Report a sale** and enter the price, the date and where it sold. Type any venue you like; Heritage Auctions, eMoviePoster, Propstore and eBay are suggested as you go, and common spellings are tidied so they group together. Condition and a link to the lot are optional. Everyone sees the list, five most recent first with the rest a tap away, and once two or more sales in the same currency are in, a low, median and high appear at the top. These are collector reports, not appraisals, and the page says so. You can remove anything you reported; moderators can remove anything.
 - **Jumbo Lobby Card**: Added the 14×17 inch Jumbo Lobby Card to the United States size list. Jumbo cards count as lobby cards on the **Lobby Cards** tabs across your collection, the library and your wishlist.
 - **Directors Are Links**: The director's name under a poster's title now opens their page, the same as the cast.
-
+- **Posterama Desktop, an Early Companion App**: A desktop app for Windows and Mac that keeps a local copy of your collection so browsing, searching, filtering and stats are instant, and still work offline. It pulls changes from your account rather than editing them, so adding and editing posters stays in the web and mobile apps for now.
 
 ### Changed
 
@@ -22,6 +58,7 @@
 - **Flash Along the Bottom of the Poster Viewer**: Hovering the close button on a poster opened from a public profile flashed a thin white line along the bottom edge of the viewer. Gone.
 - **Library Entry Panel on Phones**: A long contributor name no longer pushes the **Follow** button onto its own line, and **Suggest changes** no longer overflows the edge of the card.
 - **Poster Frame Off-Centre on Phones**: The framed artwork on poster pages sat against the right edge on narrow screens instead of centring. It centres now.
+- **Everything Failing for a Minute, Then Fine**: A busy session could suddenly see every request fail for a minute or two, as if Posterama were down. The protection that stops abusive scripts was counting all visitors who reached us through the same network node as one person, so a few heavy pages from anyone nearby could trip it for everyone. It now counts each signed-in collector separately, and each visitor by their own address, and the app no longer re-sends requests that were just refused, which used to keep the block in place.
 
 ## [1.5.18] - 2026-09-09
 
