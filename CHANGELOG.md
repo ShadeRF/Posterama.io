@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.5.23] - 2026-09-15
+
+### Added
+
+- **Posters Glide Open**: Tap a poster in your collection, the Poster Library or your wishlist and the picture glides from the grid straight into its frame on the poster's page. Go back and it glides home to its spot in the grid. Moving between any other pages is a quick fade instead of a hard cut.
+- **Glide Into the Viewer on Profiles**: On a collector's profile, their Featured posters and the full-page gallery, a poster grows from its tile into the viewer and shrinks back when you close it. The viewer shows the picture right away, then sharpens to the full-size image once it has loaded.
+- **Animations Setting (Beta)**: The fades and glides above are in beta. They're on by default on the website, and off by default in the iOS and Android apps while we finish tuning them there. Switch **Animations** on or off in **Settings** (the gear icon on the website, or the Settings page in the app). If your device is set to reduce motion, pages change instantly either way.
+
+### Changed
+
+- **Going Back Is Instant**: Returning to My Collection or the Poster Library shows the posters you were just looking at straight away, instead of loading placeholders all over again, and quietly checks for changes in the background. Changing page, tab or filters keeps the current posters on screen until the next set is ready.
+- **Opening My Collection**: The first visit of a session no longer flashes a page of placeholders before the collection appears.
+- **Steadier Poster Pages on Phones**: On phones and in the mobile app, a poster's title and artwork now appear in place when the page finishes loading, instead of sliding up and nudging the page. The website on larger screens keeps the gentle rise.
+
+### Fixed
+
+- **Flicker When Going Back**: Going back to the Poster Library, your wishlist or the marketplace made the page load itself twice, which showed as a brief double flicker. It loads once now.
+- **Scroll Position in the Mobile App**: In the iOS and Android apps, going back to a list jumped you to the top, so after opening a poster halfway down your collection you had to scroll to find your place again. Going back now returns you to where you were, and new pages still open at the top.
+- **Back After Leaving Edit**: Opening a poster in your collection, choosing **Edit** and then leaving without saving meant the back button took you into the edit form again instead of back to your collection. It goes back to your collection now.
+
 ## [1.5.22] - 2026-09-14
 
 ### Added
