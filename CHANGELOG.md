@@ -1,18 +1,35 @@
 # Changelog
 
-## [1.5.21] - 2026-09-13
+## [1.5.22] - 2026-09-14
 
 ### Added
 
-- **Tag Boxes Understand a List**: Typing `NSS, Style A, 1st Printing` into a tag box and hitting Enter used to save the whole line as one tag. It now adds three. Commas and line breaks separate tags, repeats are dropped, and if you need a comma *inside* a tag, wrap it in quotes — `"I, Borg"` stays one tag. Long lists typed on older versions of the mobile app are split when they're saved, too.
-- **A Nudge When a Tag Is Already Recorded**: If you tag a poster with something the record already holds — the film's title, country, size, year, decade, genre, a cast member, the director, the studio, the franchise or the artist — a note under the box points out that it's already searchable without a tag. It recognises a studio however it's written (`Warner Bros` for Warner Bros. Pictures), a genre's other spellings (`Sci-Fi`, `Musical`), a franchise without the word "Collection" (`Star Wars`), and a tag that's already part of the title, like `Star Wars` on *Rogue One: A Star Wars Story*. Tags that say which edition a poster is, such as `3D`, `IMAX` or `Director's Cut`, are never flagged. It's advice, not a rule: you can still add it, because there might be a good reason.
+- **Tag Suggestions From the Library**: As you type a tag, the tags other collectors already use that start the same way appear under the box with how many posters carry them. Tap one to add it. Tags the poster's record already covers aren't suggested.
+- **Spelling and Mix-Up Nudges for Tags**: The tag box now also points out a tag written differently from the rest of the library — `IMAX style` where almost everyone writes `IMAX`, or a typo like `Video Releaee` — with a button to use the usual spelling, so the same thing is tagged the same way and turns up together in search. It notes a tag that contradicts the poster, like `KR` on a poster whose country is Denmark, and explains that tags such as `Folded` or `Linen Backed` describe one collector's copy, which has its own fields for that, rather than every copy of the poster.
 - **Half Subway**: Added the 29½×45 inch Half Subway to the United States size list.
+
+### Changed
+
+- **Smarter "Already Recorded" Tag Nudge**: The note that a tag repeats the poster's record now recognises a studio however it's written (`Warner Bros` for Warner Bros. Pictures), a genre's other spellings (`Sci-Fi`, `Musical`), a franchise without the word "Collection" (`Star Wars`), and a tag that's already part of the title, like `Star Wars` on *Rogue One: A Star Wars Story*. Tags that say which edition a poster is, such as `3D`, `IMAX` or `Director's Cut`, are never flagged. Tags already on the poster that repeat or contradict the record are outlined in amber, with the reason when you hover, and a **Remove** button clears them all in one go — handy after pasting a long list. Instead of one long sentence naming every tag, the note now just says how many there are.
+- **Tag Lists From Older App Versions**: A comma-separated list typed into a tag box on an older version of the mobile app is now split into separate tags when it's saved.
+- **Tidier Library Behind the Scenes**: Moderators have better tools for merging duplicate library entries, reviewing suggested changes and cleaning up tags across the whole library, so what you search and browse stays consistent.
 
 ### Fixed
 
 - **Hyphenated Titles in Search**: Searching `wreck it ralph` didn't find *Wreck-It Ralph*, and `x men` missed the X-Men films, because the search saw one word where you typed two. Searches in the library, your collection, your wishlist and the marketplace now find titles whether you type the hyphen or not.
 - **Clearing an Artist**: Emptying the artist field on a library entry and saving put the old artist straight back. It now clears.
 - **Poster Year**: A library entry's year can no longer be saved blank or as 0; it has to be a real year, and the form says so if it isn't.
+- **Removing Tags Quickly**: Removing two tags in quick succession while editing a library entry could leave the first one behind. Both now go.
+
+## [1.5.21] - 2026-09-12
+
+### Added
+
+- **Tag Boxes Understand a List**: Typing `NSS, Style A, 1st Printing` into a tag box and hitting Enter used to save the whole line as one tag. It now adds three. Commas and line breaks separate tags, repeats are dropped, and if you need a comma *inside* a tag, wrap it in quotes — `"I, Borg"` stays one tag.
+- **A Nudge When a Tag Is Already Recorded**: If you tag a poster with something the record already holds — the film's title, country, size, year, decade, genre, a cast member, the director, the studio, the franchise or the artist — a note under the box points out that it's already searchable without a tag. It's advice, not a rule: you can still add it, because there might be a good reason.
+
+### Fixed
+
 - **Gallery Columns Left Half Empty**: On public profiles, the masonry gallery let some columns run long while others sat nearly empty, and posters further down wouldn't load until you had scrolled a long way through the blank space. Columns are now filled by the real height of each poster, so the grid stays even and keeps loading as you scroll.
 - **Posters Briefly the Wrong Shape**: The first screenful of a gallery drew every poster as a one-sheet, so lobby cards and half-sheets looked stretched until you scrolled or reloaded. Each poster's proportions are now known before it's placed.
 - **Stale Profile and Collection Pages**: A caching layer could keep showing an out-of-date public profile or collection for the rest of a session after it had changed. It's gone; pages now refresh when the underlying data does.
