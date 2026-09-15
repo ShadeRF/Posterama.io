@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.5.25] - 2026-09-15
+
+### Added
+
+- **Production Art and Heralds**: Two new poster types. **Production Art** is for one-of-a-kind artwork made for a film's campaign — prep sketches, concept art and finished paintings — and **Herald** is for the small flyers and handbills theatres handed out. Both let you enter the exact measurements yourself, since neither comes in standard sizes, and both start out stored Flat.
+- **What Each Poster Type Means**: Choosing a poster type now shows a line explaining what belongs there, so the pairs that get mixed up most — advance and teaser, promo and commercial — are easier to tell apart.
+
+### Fixed
+
+- **Posters Sliding Over the Bottom Buttons**: In the iOS and Android apps with **Animations** turned on, a tall poster gliding open travelled across the row of buttons at the bottom of the screen, then dropped behind them the moment it landed. It now stays behind them the whole way.
+
+## [1.5.24] - 2026-09-15
+
+### Fixed
+
+- **Smoother Page Changes From the Side Menu**: In the iOS and Android apps with **Animations** turned on, choosing a page from the side menu made the fade to the next page stutter, while the buttons along the bottom were smooth. The menu now fades away together with the page you're leaving, so both feel the same.
+
 ## [1.5.23] - 2026-09-15
 
 ### Added
