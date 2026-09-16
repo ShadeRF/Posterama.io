@@ -1,11 +1,42 @@
 # Changelog
 
+## [1.5.27] - 2026-09-16
+
+### Changed
+
+- **Achievements Keep Themselves Up To Date**: Your progress is now worked out fresh each time you open the Achievements page, so what you see is always current. **Check Progress** is gone — there's a **Refresh** button if you want to nudge it, but you shouldn't need it. Before this, progress only moved when you pressed that button, you could only press it once a day, and everything sat stale in between.
+- **Night Owl, Early Bird and Weekend Warrior Use Your Clock**: These three count when you added a poster, and they were reading the time in London rather than where you are. If you collect from the Americas or Asia your counts will shift — some up, some down — and they'll be right from now on. Early Bird in particular was close to impossible to earn outside Europe.
+- **Tiers Read the Right Numbers Now**: A few achievements were counting wrongly — some too high, some too low — so a tier or two may move when you next look. Where one drops, you keep the badge and the date you first earned it.
+
+### Added
+
+- **Recent Progress**: The Achievements page now opens with the last few tiers you've earned and when you earned them, so you can see what's happened since you were last there without hunting through the whole list.
+- **Earned-On Dates You Can Trust**: Each tier is now dated by the poster that actually earned it, not by the moment we noticed. Older entries have been recalculated the same way. A handful — the contributor badges — can't be traced back to a poster, so those say "recorded" instead.
+- **Unlocks Tell You About Themselves**: Earn a tier while you're off doing something else and you'll be told next time you open the page, instead of finding out by noticing a number had changed.
+
+### Fixed
+
+- **Counts Going Backwards After Adding a Poster**: For collectors with more than a thousand posters, adding one could quietly drop some country and genre counts — sometimes by a lot — until the next time you pressed Check Progress. They now only ever reflect your whole collection.
+- **Duplicate Achievements Behind the Scenes**: The library held two copies of a couple of dozen achievements, only one of which you could see, and the pair had drifted to different numbers. The hidden copies are gone.
+
+## [1.5.26] - 2026-09-15
+
+### Added
+
+- **Swipe Between Pages**: On a phone or tablet, swipe left across your posters to go to the next page and right to go back. It works in My Collection, the Poster Library and your Wishlist, so you can browse a long collection with your thumb instead of reaching for the buttons at the bottom. Scrolling, pinching and holding a poster to select it all behave as before, and swipes that start at the very edge of the screen are left to your phone's own back gesture and the side menu.
+- **Page Number Above Your Posters**: The page you're on is now shown at the top of My Collection, the Poster Library and your Wishlist as well as the bottom, so you can tell where you are in a long list without scrolling to the end to find out. It reads the same as the one at the bottom, noting when a search or a letter is narrowing what you see.
+
 ## [1.5.25] - 2026-09-15
 
 ### Added
 
 - **Production Art and Heralds**: Two new poster types. **Production Art** is for one-of-a-kind artwork made for a film's campaign — prep sketches, concept art and finished paintings — and **Herald** is for the small flyers and handbills theatres handed out. Both let you enter the exact measurements yourself, since neither comes in standard sizes, and both start out stored Flat.
 - **What Each Poster Type Means**: Choosing a poster type now shows a line explaining what belongs there, so the pairs that get mixed up most — advance and teaser, promo and commercial — are easier to tell apart.
+
+### Changed
+
+- **Storage Starts on the Right Setting**: When you log an incoming poster, changing its type or size now moves the storage condition to match — **Flat** for the pieces normally kept that way (lobby cards, window cards, press books, stills, heralds and production art) and **Rolled** for everything else. You can still set it to whatever you like.
+- **Tidier Tag Suggestions**: Tags like "herald", "production art" and "original art" are now recognised as repeating the poster's type, so they get flagged alongside the others when you clean up tags.
 
 ### Fixed
 
