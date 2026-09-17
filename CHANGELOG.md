@@ -1,5 +1,42 @@
 # Changelog
 
+## [1.5.30] - 2026-09-17
+
+### Fixed
+
+- **Collector Names Cut Short on the Friends Page**: On the collectors you follow, longer names and @handles were cut off, and the **Follows you** badge squeezed them down to a letter or two. Nothing is cut off now: names, handles and the badge wrap onto their own lines.
+- **Accidental Unfollows on the Friends Page**: The follow button sits on a card that opens the collector's profile, so a stray tap could drop someone from your list without a word. Unfollowing now asks first; following still happens straight away.
+- **Updates That Left the App Stuck**: If an update didn't unpack properly, the app could get stuck restarting itself and the only way out was to uninstall and reinstall. It now repairs itself: it reloads the update, and if that still fails it drops back to the version that came with the app, then picks the update up again.
+
+### Added
+
+- **App Updates in Settings**: The app's Settings screen now shows which version you're running, whether an update is waiting, and a **Check for updates** button. There's also **Reinstall the built-in version** if an update ever leaves the app misbehaving.
+
+## [1.5.29] - 2026-09-17
+
+### Changed
+
+- **Two Danish One-Sheet Sizes**: Denmark now offers **One-Sheet (24x33)**, the local cinema poster used until about 2010, and **One-Sheet (27x40)**, the standard size used since. Danish one-sheets already in the library have been sorted into the right one by year; if one of yours landed in the wrong size, edit it to switch.
+
+### Fixed
+
+- **Wishlists Show Current Details**: When a poster in the library was corrected (its size, country, artist or picture), your wishlist kept showing the old details. Wishlists now update with the library, and a wishlisted poster that gets merged into a duplicate moves across with it instead of turning into a broken link.
+- **Merged Posters Keep Your Photo**: When two duplicate library entries were merged, the posters in your collection picked up the right details, but could swap your own photo for the library's newer picture. Your photo now always stays.
+
+## [1.5.28] - 2026-09-16
+
+### Fixed
+
+- **Some Movie and TV Pages Wouldn't Open**: A problem at The Movie Database, where our film details come from, stopped a batch of movie and TV pages loading — some showed an error, others just stayed blank. Those pages now load normally, asking for the details a different way when the usual request fails.
+- **Statistics Stuck Loading**: If the search service had a hiccup, the Statistics page would sit on its loading placeholders forever. It now tells you it couldn't load your statistics and gives you a button to try again.
+- **Searching Collection Rankings**: The search box on the rankings page only looked at the collectors on the page you were viewing, so searching for someone further down the list found nothing. It now searches everyone.
+- **Adding a Poster When The Movie Database Is Down**: Adding a new poster type while The Movie Database was unreachable used to save it without its genres, cast, director or release year, so it quietly went missing from genre statistics, achievements and searches by director. It now tells you what happened and asks you to try again in a few minutes, and nothing incomplete gets saved. Saving a poster type that fails for any reason now tells you so, instead of looking like the button did nothing.
+
+### Changed
+
+- **Faster Statistics**: The Statistics page, the rankings page and anywhere your collection totals appear now load noticeably faster, and moving between pages of the rankings no longer reloads the whole list.
+- **Faster Searches**: Searching for movies, TV shows and people, and opening their pages, now skips a request that never went anywhere.
+
 ## [1.5.27] - 2026-09-16
 
 ### Changed
