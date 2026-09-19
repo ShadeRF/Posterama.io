@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.5.31] - 2026-09-18
+
+### Added
+
+- **Jump From Your Statistics to the Posters**: On the Statistics page, tap any genre (in **Every genre, ranked** or on the genre chart), any entry under **Formats & sizes**, or a name under **Top Directors** or **Top Cast** to open My Collection showing just those posters. It already worked for countries, decades and condition.
+
+### Fixed
+
+- **Genre and Director Filters in My Collection**: Choosing a genre or director in My Collection's Filters didn't narrow anything down; the choice was quietly dropped. Both filters work now, including **Exclude**. They're also saved in the page link and in Saved Views.
+- **Documentation Link Went Nowhere**: The **Documentation** link in the page footer, and the same entry on the app's About screen, opened an empty page on an outside site. Both now open the Help Center inside Posterama.
+
 ## [1.5.30] - 2026-09-17
 
 ### Fixed
