@@ -1,5 +1,54 @@
 # Changelog
 
+## [1.5.36] - 2026-09-22
+
+### Changed
+
+- **Faster Pages**: Your collection, the Poster Library, your wishlist and recommendations now load the first row of posters straight away instead of last. Selecting posters for a bulk action responds faster, especially on phones. The app is a little smaller to download on your first visit, the Home page skips a lookup it never used, and film and TV pages no longer download an extra large image for their background. Opening someone's profile no longer loads their wishlist until you switch to that tab.
+- **Smoother Film and TV Pages**: A film or show's posters now go straight from placeholder cards to the posters, instead of flashing "No poster types found" and a spinner first. Shared links to these pages now show the film or show's name and summary.
+- **Quicker Everyday Browsing**: The Poster Library loads its tabs and filters in one go, the app checks your profile once instead of several times as it starts, typing a message no longer slows down long conversations, and tapping the bottom menu on the app starts loading the next page as soon as you touch it.
+
+### Fixed
+
+- **Hearts on Big Wishlists**: If your wishlist had more than 100 posters, a poster's page could show an empty heart even though it was on your wishlist. Hearts are now always right, and the app no longer downloads your whole wishlist just to show them.
+- **Back to Your Search**: Opening a film or show from search and then going back used to leave you with an empty search. Your search, its results and the Movies/TV/Games choice are now right where you left them.
+- **Your Max Bid Carries Over**: Typing a max bid on an auction page, or tapping one of the quick amounts, and then pressing **Confirm bid** opened the bid window empty, so you had to enter the amount again. The window now opens with your amount filled in and automatic bidding set up to that maximum.
+- **Filters Coming Back in the Marketplace**: If you removed a filter from the results page and later opened the filter panel and pressed **Apply**, the filter you'd removed could come back. The panel now always starts from the filters you currently have.
+- **Hearts Still Showing After Removing from Your Wishlist**: Removing posters on the Wishlist page could leave their hearts filled in elsewhere, such as the Poster Library, for up to an hour. They clear straight away now.
+- **Adding a Large Selection to a Collection**: After using **Select All** across several pages, the **Add to Collection** window showed which collections your posters were in based only on the page you were looking at. It now reflects every poster you selected.
+- **Username Check Could Get It Wrong**: When choosing a username, typing quickly could leave a "Username is already taken" message on a name that was free, or clear it on one that wasn't. It now checks once you pause typing and always answers for what's in the box.
+- **Message Alerts for the Chat You're Reading**: New messages in the conversation you had open also bumped the notification bell. They no longer do, as long as you're looking at that conversation.
+- **Messages After Switching Accounts**: Signing out and into a different account without reloading could leave messaging connected as the previous account. It now reconnects as whoever is signed in.
+
+## [1.5.35] - 2026-09-20
+
+### Fixed
+
+- **Parts of a Page Failing to Load After an Update**: When we released a new version, the site could fail to load a section you'd asked for and show an error instead, until you refreshed by hand. It now refreshes itself once after an update, which is what was meant to happen all along.
+- **Explore Collectors Hitting a Limit**: Browsing collectors, especially with a larger page size, could hit a rate limit and leave the Follow buttons failing or stuck. The page now looks up who you follow once, instead of asking separately for every collector on the page.
+
+## [1.5.34] - 2026-09-20
+
+### Fixed
+
+- **Reporting a Sale Could Fail**: Telling us about a price you'd seen for a poster could come back with an error instead of saving your report. It saves now.
+
+## [1.5.33] - 2026-09-19
+
+### Fixed
+
+- **Submit Stuck After Adding the Missing Photo**: When adding a new poster to the library, pressing **Submit Poster Type** before uploading your own photo correctly asks for one. But after you uploaded it, the button stayed greyed out and the only way on was to start again. Uploading the photo now clears the message and the button works.
+
+## [1.5.32] - 2026-09-19
+
+### Changed
+
+- **Danish One-Sheets Count With Everyone Else's**: The newer Danish one-sheet, the standard 27x40, is now just **One-Sheet**, the same as every other country's. It filters, counts and shows in your statistics together with the rest of your one-sheets. The older local 24x33 one-sheet keeps its own name.
+
+### Fixed
+
+- **Filtering by Some Sizes Showed an Error**: Filtering your collection, the Poster Library or your wishlist by a size with brackets in its name, like **One-Sheet (24x33)**, showed "Could not parse the filter query" instead of your posters. Those sizes filter normally now.
+
 ## [1.5.31] - 2026-09-18
 
 ### Added
