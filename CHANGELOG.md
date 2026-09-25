@@ -1,5 +1,42 @@
 # Changelog
 
+## [1.5.39] - 2026-09-24
+
+### Fixed
+
+- **Trackers Notice New Posters Straight Away**: A grid tracker could take hours to show a poster you had just added, edited or removed as owned. It now updates as soon as your collection changes.
+- **"Add Another Poster" Shows Your Latest**: After adding a poster, choosing to add another for the same film now shows the poster you just added, and which ones you own, instead of the list from your previous visit.
+
+### Changed
+
+- **Tracker Windows Match the Rest of the App**: Creating or editing a grid tracker now opens in the same style as the Collections window, with a close button at the top.
+
+## [1.5.38] - 2026-09-23
+
+### Fixed
+
+- **Poster Counts on Big Profiles**: A collector's profile could show at most 500 posters before their full stats loaded, even if they had thousands. It now shows the real number straight away.
+
+### Changed
+
+- **Faster Uploads and Poster Pages**: Uploading a poster image is quicker, poster pages load faster, and the site makes fewer behind-the-scenes checks as you move around.
+- **Trackers Open Smoothly**: Opening a grid tracker now slides straight to the finished grid, like other pages, instead of showing a spinner (sometimes two) first. Large trackers also draw noticeably faster.
+
+## [1.5.37] - 2026-09-22
+
+### Fixed
+
+- **Private Posters Stay Private on Shared Trackers**: When someone viewed a tracker you'd made public, it could count posters you'd marked private. Other collectors now only see your public posters on your shared trackers, and only for the films on that tracker.
+- **Grid Trackers Open Faster**: Opening a tracker now works out which posters you own once instead of twice, so the grid appears sooner and no longer redraws itself.
+- **Hidden Cells Stay Hidden**: Hiding a cell on a tracker right as it opened could quietly undo itself. It sticks now.
+- **An Honest Error Instead of an Empty Grid**: If we couldn't check your collection for a moment, a tracker used to show every cell as missing, as if you owned nothing. It now says something went wrong and gives you a **Try again** button.
+- **Tracker Templates and the Free Limit**: On the free plan, once you've reached your tracker limit, template cards now offer the upgrade straight away instead of failing when you try to add one.
+- **Clearer Limits on Very Large Trackers**: A tracker with an extremely large number of films or columns now gets a clear message instead of a generic error.
+
+### Changed
+
+- **New Trackers Start Private**: New trackers are private until you choose to share them, every time you open the create window.
+
 ## [1.5.36] - 2026-09-22
 
 ### Changed
