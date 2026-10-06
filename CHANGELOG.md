@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.5.40] - 2026-10-05
+
+### Added
+
+- **Serial Chapters for Lobby Cards**: Lobby cards from serials can now be marked with their chapter using the new "+ Chapter" suggestion. Each chapter is treated as its own set, so grid trackers show your progress chapter by chapter (for example "Ch. 1: TC, 2, 5 · Ch. 7: Complete"), and a serial's cards sort in chapter order.
+
+### Changed
+
+- **Card Suggestions When Editing**: Editing a lobby card now offers the same one-click Title Card and Card #1–#8 tags as adding one.
+
 ## [1.5.39] - 2026-09-24
 
 ### Fixed
