@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.5.42] - 2026-10-11
+
+### Changed
+
+- **Emoji Look Like Your Device's**: The emoji picker in messages, collections and trackers now shows emoji in your phone's or computer's own style, matching what you type elsewhere. They appear straight away instead of loading in one by one.
+- **Behind the Scenes**: A round of updates to the app's building blocks, including sign-in, payments and error reporting. Error reports still leave out your personal details.
+
+## [1.5.41] - 2026-10-06
+
+### Changed
+
+- **Game Pages Open Smoothly**: Opening a video game's page now slides straight to the finished page, as film and TV pages do, instead of fading to an empty page and filling in.
+
+### Fixed
+
+- **Game Titles Link to the Game**: A video game poster's title, on its card, its page and in the gallery viewer, now takes you to that game's page, the same way film titles go to the film.
+- **New Game Posters Show Up Straight Away**: After adding a poster or print for a video game, it now appears on the game's page right away instead of up to an hour later.
+
 ## [1.5.40] - 2026-10-05
 
 ### Added
