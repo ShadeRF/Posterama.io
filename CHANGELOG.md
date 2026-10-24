@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.5.43] - 2026-10-24
+
+### Changed
+
+- **One Look for Pop-ups**: Confirmations and other pop-up windows across the app, such as deleting posters, making offers and contacting support, now share the same dark panel instead of a few still showing an older grey style.
+- **Behind the Scenes**: Another round of updates to the app's building blocks and the servers it runs on, including the latest security fixes.
+
+### Fixed
+
+- **Adding a Poster Is Safer to Finish**: While adding a poster to your collection on your phone, the bottom menu now steps aside so a near-miss on the "Add to Collection" button can't take you away. If you do try to leave with details typed in, you're asked first whether to discard them. Going back now takes you one step at a time, and after creating a new poster you won't be sent back to create it again.
+
 ## [1.5.42] - 2026-10-11
 
 ### Changed
