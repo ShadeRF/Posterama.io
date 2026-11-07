@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.5.45] - 2026-11-06
+
+### Added
+
+- **Hear Back on What You Send Us**: When a moderator reviews something you submitted, you now get a notification with the outcome. That covers suggested poster edits (approved or not, with any note from the moderator), reports about posters in the library, reports about marketplace feedback, and reports about marketplace listings.
+- **Know Why a Poster or Listing Was Removed**: If a moderator removes a poster from your collection because it isn't a real poster, or takes down one of your marketplace listings after a report, you now get a notification explaining why.
+
+## [1.5.44] - 2026-10-25
+
+### Changed
+
+
+- **Link Previews Name the Right Collector**: When you share one of your posters, the preview card now always shows your username, taken from your profile rather than the link. If your profile is private, the card shows just "posterama.io".
+
+### Fixed
+
+- **Your Collection Stays Put When Search Hiccups**: If our search service has a problem, My Collection (cards and table) and the Poster Library now still show posters, with a note that some tabs, filters and search are limited until it's back. Short hiccups now often fix themselves with an automatic retry. Before, it could wrongly say your collection was empty. Other poster lists, public galleries and profile wishlists now show an error with a **Retry** button instead of "No posters found" or "0 posters".
+- **Recommendations Load Cleanly**: The Recommended for You page no longer flashes "Add a few posters first" while it loads, and if picks can't be loaded it says so with a **Try again** button instead of suggesting your collection is empty.
+- **Safety Fixes**: Closed several security gaps, including in search, marketplace emails, poster library pages, link previews, collections, notifications and email settings. Nothing changes in how you use Posterama.
+
 ## [1.5.43] - 2026-10-24
 
 ### Changed
